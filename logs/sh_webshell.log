@@ -1,0 +1,336 @@
+[D 2023-03-05 17:37:25.017 ServerApp] Searching ['/opt/odoo.sh/jupyterlab/etc/jupyter', '/home/odoo/.jupyter', '/usr/local/etc/jupyter', '/etc/jupyter'] for config files
+[D 2023-03-05 17:37:25.017 ServerApp] Looking for jupyter_config in /etc/jupyter
+[D 2023-03-05 17:37:25.017 ServerApp] Looking for jupyter_config in /usr/local/etc/jupyter
+[D 2023-03-05 17:37:25.017 ServerApp] Looking for jupyter_config in /home/odoo/.jupyter
+[D 2023-03-05 17:37:25.017 ServerApp] Looking for jupyter_config in /opt/odoo.sh/jupyterlab/etc/jupyter
+[D 2023-03-05 17:37:25.018 ServerApp] Looking for jupyter_server_config in /etc/jupyter
+[D 2023-03-05 17:37:25.018 ServerApp] Looking for jupyter_server_config in /usr/local/etc/jupyter
+[D 2023-03-05 17:37:25.018 ServerApp] Looking for jupyter_server_config in /home/odoo/.jupyter
+[D 2023-03-05 17:37:25.018 ServerApp] Looking for jupyter_server_config in /opt/odoo.sh/jupyterlab/etc/jupyter
+[I 2023-03-05 17:37:25.026 ServerApp] sh_webshell | extension was successfully linked.
+[D 2023-03-05 17:37:25.027 ServerApp] Default value for min_open_files_limit is ignored (hard=1024, soft=1024)
+[I 2023-03-05 17:37:25.059 ServerApp] sh_webshell | extension was successfully loaded.
+[I 2023-03-05 17:37:25.059 ServerApp] Will shut down after 1800 seconds with no kernels or terminals.
+[I 2023-03-05 17:37:25.059 ServerApp] sh_webshell is running without loading other extensions.
+[I 2023-03-05 17:37:25.060 ServerApp] Serving notebooks from local directory: /home/odoo
+[I 2023-03-05 17:37:25.060 ServerApp] Jupyter Server 1.23.2 is running at:
+[I 2023-03-05 17:37:25.060 ServerApp] http://aspj02:8889/odoo-sh/webshell/ws
+[I 2023-03-05 17:37:25.060 ServerApp]  or http://127.0.0.1:8889/odoo-sh/webshell/ws
+[I 2023-03-05 17:37:25.060 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 2023-03-05 17:37:25.062 ServerApp] No web browser found: could not locate runnable browser.
+[I 2023-03-05 17:37:25.246 WebshellApp] 302 GET /odoo-sh/webshell/ws (10.0.0.34) 0.87ms
+[D 2023-03-05 17:37:27.786 ServerApp] Using contents: services/contents
+[D 2023-03-05 17:37:27.800 ServerApp] Path favicon.ico served from /opt/odoo.sh/jupyterlab/lib/python3.8/site-packages/jupyter_server/static/favicon.ico
+[D 2023-03-05 17:37:27.801 ServerApp] Path style/bootstrap.min.css served from /opt/odoo.sh/jupyterlab/lib/python3.8/site-packages/jupyter_server/static/style/bootstrap.min.css
+[D 2023-03-05 17:37:27.803 ServerApp] Path style/bootstrap-theme.min.css served from /opt/odoo.sh/jupyterlab/lib/python3.8/site-packages/jupyter_server/static/style/bootstrap-theme.min.css
+[D 2023-03-05 17:37:27.804 ServerApp] Path style/index.css served from /opt/odoo.sh/jupyterlab/lib/python3.8/site-packages/jupyter_server/static/style/index.css
+[D 2023-03-05 17:37:27.804 ServerApp] Path logo/logo.png served from /opt/odoo.sh/jupyterlab/lib/python3.8/site-packages/jupyter_server/static/logo/logo.png
+[D 2023-03-05 17:37:27.805 ServerApp] 200 GET /odoo-sh/webshell/login?next=%2Fodoo-sh%2Fwebshell%2Fws?next=%2Fodoo-sh%2Fwebshell%2Fws (10.0.0.34) 20.45ms
+[I 2023-03-05 17:37:27.808 ServerApp] 302 POST /odoo-sh/webshell/login?next=%2Fodoo-sh%2Fwebshell%2Fws (10.0.0.34) 0.74ms
+[D 2023-03-05 17:37:27.983 ServerApp] Paths used for configuration of page_config: 
+    	/etc/jupyter/labconfig/page_config.json
+[D 2023-03-05 17:37:27.984 ServerApp] Paths used for configuration of page_config: 
+    	/usr/local/etc/jupyter/labconfig/page_config.json
+[D 2023-03-05 17:37:27.984 ServerApp] Paths used for configuration of page_config: 
+    	/home/odoo/.jupyter/labconfig/page_config.json
+[D 2023-03-05 17:37:27.984 ServerApp] Paths used for configuration of page_config: 
+    	/opt/odoo.sh/jupyterlab/etc/jupyter/labconfig/page_config.json
+[D 2023-03-05 17:37:27.985 WebshellApp] Using contents: services/contents
+[D 2023-03-05 17:37:27.993 WebshellApp] 200 GET /odoo-sh/webshell/ws (10.0.0.34) 22.75ms
+[D 2023-03-05 17:37:28.100 ServerApp] Path bundle.js served from /opt/odoo.sh/jupyterlab/lib/python3.8/site-packages/sh_webshell/static/bundle.js
+[D 2023-03-05 17:37:28.117 ServerApp] 200 GET /odoo-sh/webshell/static/sh_webshell/bundle.js (10.0.0.34) 17.71ms
+[D 2023-03-05 17:37:29.071 ServerApp] 200 GET /odoo-sh/webshell/api/terminals?1678037848815 (10.0.0.34) 0.92ms
+[I 2023-03-05 17:37:29.172 ServerApp] New terminal with automatic name: 1
+[I 2023-03-05 17:37:29.172 ServerApp] Culling terminals with inactivity > 14400 seconds at 1800 second intervals ...
+[D 2023-03-05 17:37:29.173 ServerApp] 200 POST /odoo-sh/webshell/api/terminals?1678037848909 (10.0.0.34) 14.26ms
+[D 2023-03-05 17:37:29.175 ServerApp] 200 GET /odoo-sh/webshell/api/terminals?1678037848915 (10.0.0.34) 1.15ms
+[D 2023-03-05 17:37:29.266 ServerApp] 200 GET /odoo-sh/webshell/api/terminals?1678037849010 (10.0.0.34) 0.84ms
+[D 2023-03-05 17:37:29.491 ServerApp] 101 GET /odoo-sh/webshell/terminals/websocket/1 (10.0.0.34) 0.81ms
+[D 2023-03-05 17:37:29.491 ServerApp] Opening websocket /odoo-sh/webshell/terminals/websocket/1
+[D 2023-03-05 17:38:31.869 ServerApp] 200 GET /odoo-sh/webshell/api/terminals?1678037911620 (10.0.0.34) 0.82ms
+[D 2023-03-05 17:38:41.984 ServerApp] 200 GET /odoo-sh/webshell/api/terminals?1678037921713 (10.0.0.34) 0.75ms
+[D 2023-03-05 17:38:52.075 ServerApp] 200 GET /odoo-sh/webshell/api/terminals?1678037931824 (10.0.0.34) 0.81ms
+[D 2023-03-05 17:39:02.181 ServerApp] 200 GET /odoo-sh/webshell/api/terminals?1678037941916 (10.0.0.34) 1.37ms
+[D 2023-03-05 17:39:12.280 ServerApp] 200 GET /odoo-sh/webshell/api/terminals?1678037952023 (10.0.0.34) 0.91ms
+[D 2023-03-05 17:39:22.370 ServerApp] 200 GET /odoo-sh/webshell/api/terminals?1678037962114 (10.0.0.34) 1.01ms
+[D 2023-03-05 17:39:32.466 ServerApp] 200 GET /odoo-sh/webshell/api/terminals?1678037972211 (10.0.0.34) 1.15ms
+[D 2023-03-05 17:39:42.572 ServerApp] 200 GET /odoo-sh/webshell/api/terminals?1678037982307 (10.0.0.34) 1.24ms
+[D 2023-03-05 17:39:52.655 ServerApp] 200 GET /odoo-sh/webshell/api/terminals?1678037992407 (10.0.0.34) 0.82ms
+[D 2023-03-05 17:40:02.740 ServerApp] 200 GET /odoo-sh/webshell/api/terminals?1678038002496 (10.0.0.34) 0.75ms
+[D 2023-03-05 17:40:12.871 ServerApp] 200 GET /odoo-sh/webshell/api/terminals?1678038012584 (10.0.0.34) 0.72ms
+[D 2023-03-05 17:40:22.985 ServerApp] 200 GET /odoo-sh/webshell/api/terminals?1678038022714 (10.0.0.34) 0.71ms
+[D 2023-03-05 17:40:33.091 ServerApp] 200 GET /odoo-sh/webshell/api/terminals?1678038032826 (10.0.0.34) 1.00ms
+[D 2023-03-05 17:40:43.361 ServerApp] 200 GET /odoo-sh/webshell/api/terminals?1678038042938 (10.0.0.34) 0.82ms
+[D 2023-03-05 17:40:53.470 ServerApp] 200 GET /odoo-sh/webshell/api/terminals?1678038053223 (10.0.0.34) 0.93ms
+[D 2023-03-05 17:41:03.560 ServerApp] 200 GET /odoo-sh/webshell/api/terminals?1678038063313 (10.0.0.34) 0.79ms
+[D 2023-03-05 17:41:35.875 ServerApp] 200 GET /odoo-sh/webshell/api/terminals?1678038095621 (10.0.0.34) 0.71ms
+[D 2023-03-05 17:41:45.975 ServerApp] 200 GET /odoo-sh/webshell/api/terminals?1678038105719 (10.0.0.34) 0.96ms
+[D 2023-03-05 17:41:56.070 ServerApp] 200 GET /odoo-sh/webshell/api/terminals?1678038115824 (10.0.0.34) 0.77ms
+[D 2023-03-05 17:42:06.175 ServerApp] 200 GET /odoo-sh/webshell/api/terminals?1678038125928 (10.0.0.34) 0.71ms
+[D 2023-03-05 17:42:16.261 ServerApp] 200 GET /odoo-sh/webshell/api/terminals?1678038136013 (10.0.0.34) 0.79ms
+[D 2023-03-05 17:42:26.355 ServerApp] 200 GET /odoo-sh/webshell/api/terminals?1678038146100 (10.0.0.34) 0.73ms
+[D 2023-03-05 17:42:36.471 ServerApp] 200 GET /odoo-sh/webshell/api/terminals?1678038156207 (10.0.0.34) 1.25ms
+[D 2023-03-05 17:42:46.571 ServerApp] 200 GET /odoo-sh/webshell/api/terminals?1678038166326 (10.0.0.34) 1.60ms
+[D 2023-03-05 17:42:56.675 ServerApp] 200 GET /odoo-sh/webshell/api/terminals?1678038176421 (10.0.0.34) 0.69ms
+[D 2023-03-05 17:43:06.785 ServerApp] 200 GET /odoo-sh/webshell/api/terminals?1678038186533 (10.0.0.34) 0.85ms
+[D 2023-03-05 17:43:16.888 ServerApp] 200 GET /odoo-sh/webshell/api/terminals?1678038196628 (10.0.0.34) 2.61ms
+[D 2023-03-05 17:43:26.999 ServerApp] 200 GET /odoo-sh/webshell/api/terminals?1678038206751 (10.0.0.34) 0.73ms
+[D 2023-03-05 17:43:37.098 ServerApp] 200 GET /odoo-sh/webshell/api/terminals?1678038216839 (10.0.0.34) 2.10ms
+[D 2023-03-05 17:43:47.200 ServerApp] 200 GET /odoo-sh/webshell/api/terminals?1678038226950 (10.0.0.34) 0.92ms
+[D 2023-03-05 17:43:57.305 ServerApp] 200 GET /odoo-sh/webshell/api/terminals?1678038237042 (10.0.0.34) 0.75ms
+[D 2023-03-05 17:44:07.400 ServerApp] 200 GET /odoo-sh/webshell/api/terminals?1678038247140 (10.0.0.34) 0.90ms
+[D 2023-03-05 17:44:17.493 ServerApp] 200 GET /odoo-sh/webshell/api/terminals?1678038257240 (10.0.0.34) 3.04ms
+[D 2023-03-05 17:44:27.585 ServerApp] 200 GET /odoo-sh/webshell/api/terminals?1678038267328 (10.0.0.34) 1.17ms
+[D 2023-03-05 17:44:37.691 ServerApp] 200 GET /odoo-sh/webshell/api/terminals?1678038277422 (10.0.0.34) 1.22ms
+[D 2023-03-05 17:44:47.805 ServerApp] 200 GET /odoo-sh/webshell/api/terminals?1678038287529 (10.0.0.34) 1.25ms
+[D 2023-03-05 17:44:57.905 ServerApp] 200 GET /odoo-sh/webshell/api/terminals?1678038297645 (10.0.0.34) 0.83ms
+[D 2023-03-05 17:45:08.010 ServerApp] 200 GET /odoo-sh/webshell/api/terminals?1678038307742 (10.0.0.34) 1.05ms
+[D 2023-03-05 17:45:18.105 ServerApp] 200 GET /odoo-sh/webshell/api/terminals?1678038317845 (10.0.0.34) 0.82ms
+[I 2023-03-05 17:45:24.771 ServerApp] New terminal with automatic name: 2
+[D 2023-03-05 17:45:24.772 ServerApp] 200 POST /odoo-sh/webshell/api/terminals?1678038324455 (10.0.0.34) 8.27ms
+[D 2023-03-05 17:45:24.855 ServerApp] 200 GET /odoo-sh/webshell/api/terminals?1678038324603 (10.0.0.34) 1.30ms
+[D 2023-03-05 17:45:25.536 ServerApp] 101 GET /odoo-sh/webshell/terminals/websocket/2 (10.0.0.34) 1.21ms
+[D 2023-03-05 17:45:25.537 ServerApp] Opening websocket /odoo-sh/webshell/terminals/websocket/2
+[I 2023-03-05 17:45:26.630 ServerApp] EOF on FD 17; stopping reading
+[I 2023-03-05 17:45:26.731 ServerApp] Terminal 2 closed
+[D 2023-03-05 17:45:26.732 ServerApp] 204 DELETE /odoo-sh/webshell/api/terminals/2?1678038326359 (10.0.0.34) 103.01ms
+[D 2023-03-05 17:45:26.790 ServerApp] 200 GET /odoo-sh/webshell/api/terminals?1678038326363 (10.0.0.34) 0.90ms
+[D 2023-03-05 17:45:36.880 ServerApp] 200 GET /odoo-sh/webshell/api/terminals?1678038336628 (10.0.0.34) 0.92ms
+[D 2023-03-05 17:45:45.667 ServerApp] 200 GET /odoo-sh/webshell/api/terminals?1678038345390 (10.0.0.34) 0.78ms
+[I 2023-03-05 17:45:45.672 ServerApp] EOF on FD 15; stopping reading
+[I 2023-03-05 17:45:45.773 ServerApp] Terminal 1 closed
+[D 2023-03-05 17:45:45.774 ServerApp] 204 DELETE /odoo-sh/webshell/api/terminals/1?1678038345388 (10.0.0.34) 108.20ms
+[I 2023-03-05 17:45:47.415 ServerApp] New terminal with automatic name: 1
+[D 2023-03-05 17:45:47.416 ServerApp] 200 POST /odoo-sh/webshell/api/terminals?1678038347138 (10.0.0.34) 7.02ms
+[D 2023-03-05 17:45:47.510 ServerApp] 200 GET /odoo-sh/webshell/api/terminals?1678038347247 (10.0.0.34) 1.30ms
+[D 2023-03-05 17:45:47.736 ServerApp] 101 GET /odoo-sh/webshell/terminals/websocket/1 (10.0.0.34) 1.16ms
+[D 2023-03-05 17:45:47.737 ServerApp] Opening websocket /odoo-sh/webshell/terminals/websocket/1
+[D 2023-03-05 17:45:57.600 ServerApp] 200 GET /odoo-sh/webshell/api/terminals?1678038357347 (10.0.0.34) 0.82ms
+[D 2023-03-05 17:46:07.685 ServerApp] 200 GET /odoo-sh/webshell/api/terminals?1678038367435 (10.0.0.34) 1.10ms
+[D 2023-03-05 17:46:17.771 ServerApp] 200 GET /odoo-sh/webshell/api/terminals?1678038377515 (10.0.0.34) 1.88ms
+[I 2023-03-05 17:46:26.443 ServerApp] EOF on FD 15; stopping reading
+[I 2023-03-05 17:46:26.544 ServerApp] Terminal 1 closed
+[D 2023-03-05 17:46:26.546 ServerApp] 204 DELETE /odoo-sh/webshell/api/terminals/1?1678038386188 (10.0.0.34) 106.76ms
+[D 2023-03-05 17:46:26.546 ServerApp] 200 GET /odoo-sh/webshell/api/terminals?1678038386190 (10.0.0.34) 1.19ms
+[I 2023-03-05 17:46:27.475 ServerApp] New terminal with automatic name: 1
+[D 2023-03-05 17:46:27.476 ServerApp] 200 POST /odoo-sh/webshell/api/terminals?1678038387223 (10.0.0.34) 7.57ms
+[D 2023-03-05 17:46:27.580 ServerApp] 200 GET /odoo-sh/webshell/api/terminals?1678038387326 (10.0.0.34) 0.95ms
+[D 2023-03-05 17:46:27.846 ServerApp] 101 GET /odoo-sh/webshell/terminals/websocket/1 (10.0.0.34) 0.96ms
+[D 2023-03-05 17:46:27.846 ServerApp] Opening websocket /odoo-sh/webshell/terminals/websocket/1
+[D 2023-03-05 17:46:47.745 ServerApp] 200 GET /odoo-sh/webshell/api/terminals?1678038407475 (10.0.0.34) 0.83ms
+[D 2023-03-05 17:46:57.890 ServerApp] 200 GET /odoo-sh/webshell/api/terminals?1678038417590 (10.0.0.34) 0.76ms
+[D 2023-03-05 17:47:07.980 ServerApp] 200 GET /odoo-sh/webshell/api/terminals?1678038427729 (10.0.0.34) 0.84ms
+[D 2023-03-05 17:51:30.708 ServerApp] 200 GET /odoo-sh/webshell/api/terminals?1678038690421 (10.0.0.34) 2.67ms
+[D 2023-03-05 17:54:52.781 ServerApp] 200 GET /odoo-sh/webshell/api/terminals?1678038892513 (10.0.0.34) 0.75ms
+[D 2023-03-05 17:57:12.816 ServerApp] 200 GET /odoo-sh/webshell/api/terminals?1678039032547 (10.0.0.34) 1.26ms
+[D 2023-03-05 17:57:22.966 ServerApp] 200 GET /odoo-sh/webshell/api/terminals?1678039042648 (10.0.0.34) 1.10ms
+[D 2023-03-05 17:57:33.066 ServerApp] 200 GET /odoo-sh/webshell/api/terminals?1678039052811 (10.0.0.34) 1.15ms
+[D 2023-03-05 17:57:43.161 ServerApp] 200 GET /odoo-sh/webshell/api/terminals?1678039062911 (10.0.0.34) 0.72ms
+[D 2023-03-05 17:57:53.267 ServerApp] 200 GET /odoo-sh/webshell/api/terminals?1678039073000 (10.0.0.34) 1.03ms
+[D 2023-03-05 17:58:03.356 ServerApp] 200 GET /odoo-sh/webshell/api/terminals?1678039083102 (10.0.0.34) 1.04ms
+[D 2023-03-05 17:58:13.517 ServerApp] 200 GET /odoo-sh/webshell/api/terminals?1678039093198 (10.0.0.34) 1.26ms
+[D 2023-03-05 17:58:23.626 ServerApp] 200 GET /odoo-sh/webshell/api/terminals?1678039103384 (10.0.0.34) 1.26ms
+[D 2023-03-05 17:58:33.722 ServerApp] 200 GET /odoo-sh/webshell/api/terminals?1678039113491 (10.0.0.34) 1.86ms
+[D 2023-03-05 17:58:43.806 ServerApp] 200 GET /odoo-sh/webshell/api/terminals?1678039123582 (10.0.0.34) 1.08ms
+[D 2023-03-05 17:58:53.906 ServerApp] 200 GET /odoo-sh/webshell/api/terminals?1678039133681 (10.0.0.34) 1.40ms
+[D 2023-03-05 17:59:03.996 ServerApp] 200 GET /odoo-sh/webshell/api/terminals?1678039143769 (10.0.0.34) 0.91ms
+[D 2023-03-05 17:59:14.118 ServerApp] 200 GET /odoo-sh/webshell/api/terminals?1678039153866 (10.0.0.34) 1.37ms
+[D 2023-03-05 17:59:24.240 ServerApp] 200 GET /odoo-sh/webshell/api/terminals?1678039164009 (10.0.0.34) 0.81ms
+[D 2023-03-05 17:59:34.363 ServerApp] 200 GET /odoo-sh/webshell/api/terminals?1678039174119 (10.0.0.34) 2.65ms
+[D 2023-03-05 17:59:44.460 ServerApp] 200 GET /odoo-sh/webshell/api/terminals?1678039184237 (10.0.0.34) 0.83ms
+[D 2023-03-05 17:59:54.561 ServerApp] 200 GET /odoo-sh/webshell/api/terminals?1678039194338 (10.0.0.34) 1.37ms
+[D 2023-03-05 18:00:04.694 ServerApp] 200 GET /odoo-sh/webshell/api/terminals?1678039204441 (10.0.0.34) 28.73ms
+[D 2023-03-05 18:00:14.864 ServerApp] 200 GET /odoo-sh/webshell/api/terminals?1678039214639 (10.0.0.34) 3.51ms
+[D 2023-03-05 18:00:24.971 ServerApp] 200 GET /odoo-sh/webshell/api/terminals?1678039224730 (10.0.0.34) 1.08ms
+[D 2023-03-05 18:00:35.066 ServerApp] 200 GET /odoo-sh/webshell/api/terminals?1678039234842 (10.0.0.34) 1.35ms
+[D 2023-03-05 18:00:55.616 ServerApp] 200 GET /odoo-sh/webshell/api/terminals?1678039255374 (10.0.0.34) 0.72ms
+[D 2023-03-05 18:01:05.757 ServerApp] 200 GET /odoo-sh/webshell/api/terminals?1678039265487 (10.0.0.34) 1.14ms
+[D 2023-03-05 18:01:15.886 ServerApp] 200 GET /odoo-sh/webshell/api/terminals?1678039275622 (10.0.0.34) 0.98ms
+[D 2023-03-05 18:01:25.971 ServerApp] 200 GET /odoo-sh/webshell/api/terminals?1678039285748 (10.0.0.34) 1.12ms
+[D 2023-03-05 18:01:36.091 ServerApp] 200 GET /odoo-sh/webshell/api/terminals?1678039295831 (10.0.0.34) 0.87ms
+[D 2023-03-05 18:01:46.211 ServerApp] 200 GET /odoo-sh/webshell/api/terminals?1678039305961 (10.0.0.34) 0.78ms
+[D 2023-03-05 18:01:56.346 ServerApp] 200 GET /odoo-sh/webshell/api/terminals?1678039316077 (10.0.0.34) 1.09ms
+[D 2023-03-05 18:02:06.451 ServerApp] 200 GET /odoo-sh/webshell/api/terminals?1678039326224 (10.0.0.34) 0.88ms
+[D 2023-03-05 18:02:16.565 ServerApp] 200 GET /odoo-sh/webshell/api/terminals?1678039336321 (10.0.0.34) 0.95ms
+[D 2023-03-05 18:02:26.685 ServerApp] 200 GET /odoo-sh/webshell/api/terminals?1678039346429 (10.0.0.34) 0.72ms
+[D 2023-03-05 18:02:37.480 ServerApp] 200 GET /odoo-sh/webshell/api/terminals?1678039356553 (10.0.0.34) 0.98ms
+[D 2023-03-05 18:02:47.565 ServerApp] 200 GET /odoo-sh/webshell/api/terminals?1678039367341 (10.0.0.34) 0.69ms
+[D 2023-03-05 18:02:57.651 ServerApp] 200 GET /odoo-sh/webshell/api/terminals?1678039377428 (10.0.0.34) 1.33ms
+[D 2023-03-05 18:03:07.744 ServerApp] 200 GET /odoo-sh/webshell/api/terminals?1678039387520 (10.0.0.34) 0.85ms
+[D 2023-03-05 18:03:17.845 ServerApp] 200 GET /odoo-sh/webshell/api/terminals?1678039397616 (10.0.0.34) 1.08ms
+[D 2023-03-05 18:03:27.965 ServerApp] 200 GET /odoo-sh/webshell/api/terminals?1678039407704 (10.0.0.34) 1.05ms
+[D 2023-03-05 18:03:38.144 ServerApp] 200 GET /odoo-sh/webshell/api/terminals?1678039417871 (10.0.0.34) 0.87ms
+[D 2023-03-05 18:03:48.264 ServerApp] 200 GET /odoo-sh/webshell/api/terminals?1678039428014 (10.0.0.34) 0.76ms
+[D 2023-03-05 18:03:58.380 ServerApp] 200 GET /odoo-sh/webshell/api/terminals?1678039438135 (10.0.0.34) 1.07ms
+[D 2023-03-05 18:04:08.470 ServerApp] 200 GET /odoo-sh/webshell/api/terminals?1678039448246 (10.0.0.34) 0.88ms
+[D 2023-03-05 18:04:18.576 ServerApp] 200 GET /odoo-sh/webshell/api/terminals?1678039458335 (10.0.0.34) 1.16ms
+[D 2023-03-05 18:04:28.665 ServerApp] 200 GET /odoo-sh/webshell/api/terminals?1678039468446 (10.0.0.34) 1.12ms
+[D 2023-03-05 18:04:38.825 ServerApp] 200 GET /odoo-sh/webshell/api/terminals?1678039478573 (10.0.0.34) 0.81ms
+[D 2023-03-05 18:04:59.600 ServerApp] 200 GET /odoo-sh/webshell/api/terminals?1678039499379 (10.0.0.34) 1.13ms
+[D 2023-03-05 18:05:09.690 ServerApp] 200 GET /odoo-sh/webshell/api/terminals?1678039509470 (10.0.0.34) 1.10ms
+[D 2023-03-05 18:05:19.776 ServerApp] 200 GET /odoo-sh/webshell/api/terminals?1678039519551 (10.0.0.34) 1.06ms
+[D 2023-03-05 18:05:29.995 ServerApp] 200 GET /odoo-sh/webshell/api/terminals?1678039529709 (10.0.0.34) 0.73ms
+[D 2023-03-05 18:05:40.120 ServerApp] 200 GET /odoo-sh/webshell/api/terminals?1678039539869 (10.0.0.34) 1.03ms
+[D 2023-03-05 18:05:50.265 ServerApp] 200 GET /odoo-sh/webshell/api/terminals?1678039550005 (10.0.0.34) 1.56ms
+[D 2023-03-05 18:06:00.356 ServerApp] 200 GET /odoo-sh/webshell/api/terminals?1678039560133 (10.0.0.34) 0.98ms
+[D 2023-03-05 18:06:10.435 ServerApp] 200 GET /odoo-sh/webshell/api/terminals?1678039570213 (10.0.0.34) 0.85ms
+[D 2023-03-05 18:06:20.524 ServerApp] 200 GET /odoo-sh/webshell/api/terminals?1678039580296 (10.0.0.34) 0.71ms
+[D 2023-03-05 18:06:30.630 ServerApp] 200 GET /odoo-sh/webshell/api/terminals?1678039590405 (10.0.0.34) 0.75ms
+[D 2023-03-05 18:06:40.745 ServerApp] 200 GET /odoo-sh/webshell/api/terminals?1678039600498 (10.0.0.34) 0.97ms
+[D 2023-03-05 18:06:50.866 ServerApp] 200 GET /odoo-sh/webshell/api/terminals?1678039610612 (10.0.0.34) 1.09ms
+[D 2023-03-05 18:07:00.955 ServerApp] 200 GET /odoo-sh/webshell/api/terminals?1678039620727 (10.0.0.34) 0.80ms
+[D 2023-03-05 18:07:11.045 ServerApp] 200 GET /odoo-sh/webshell/api/terminals?1678039630824 (10.0.0.34) 0.97ms
+[D 2023-03-05 18:07:29.174 ServerApp] Polling every 1800 seconds for terminals inactive for > 14400 seconds...
+[D 2023-03-05 18:07:29.174 ServerApp] name=1, last_activity=2023-03-05 18:07:15.960909+00:00
+[C 2023-03-05 18:09:24.137 ServerApp] received signal 15, stopping
+[I 2023-03-05 18:09:24.139 ServerApp] Shutting down 1 extension
+[D 2023-03-05 18:09:24.139 ServerApp] sh_webshell | extension app 'sh_webshell' stopping
+[D 2023-03-05 18:09:24.139 ServerApp] sh_webshell | extension app 'sh_webshell' stopped
+[D 2023-03-05 18:39:27.441 ServerApp] Searching ['/opt/odoo.sh/jupyterlab/etc/jupyter', '/home/odoo/.jupyter', '/usr/local/etc/jupyter', '/etc/jupyter'] for config files
+[D 2023-03-05 18:39:27.442 ServerApp] Looking for jupyter_config in /etc/jupyter
+[D 2023-03-05 18:39:27.442 ServerApp] Looking for jupyter_config in /usr/local/etc/jupyter
+[D 2023-03-05 18:39:27.442 ServerApp] Looking for jupyter_config in /home/odoo/.jupyter
+[D 2023-03-05 18:39:27.442 ServerApp] Looking for jupyter_config in /opt/odoo.sh/jupyterlab/etc/jupyter
+[D 2023-03-05 18:39:27.443 ServerApp] Looking for jupyter_server_config in /etc/jupyter
+[D 2023-03-05 18:39:27.443 ServerApp] Looking for jupyter_server_config in /usr/local/etc/jupyter
+[D 2023-03-05 18:39:27.443 ServerApp] Looking for jupyter_server_config in /home/odoo/.jupyter
+[D 2023-03-05 18:39:27.443 ServerApp] Looking for jupyter_server_config in /opt/odoo.sh/jupyterlab/etc/jupyter
+[I 2023-03-05 18:39:27.450 ServerApp] sh_webshell | extension was successfully linked.
+[D 2023-03-05 18:39:27.451 ServerApp] Default value for min_open_files_limit is ignored (hard=1024, soft=1024)
+[I 2023-03-05 18:39:27.475 ServerApp] sh_webshell | extension was successfully loaded.
+[I 2023-03-05 18:39:27.475 ServerApp] Will shut down after 1800 seconds with no kernels or terminals.
+[I 2023-03-05 18:39:27.475 ServerApp] sh_webshell is running without loading other extensions.
+[I 2023-03-05 18:39:27.476 ServerApp] Serving notebooks from local directory: /home/odoo
+[I 2023-03-05 18:39:27.476 ServerApp] Jupyter Server 1.23.2 is running at:
+[I 2023-03-05 18:39:27.476 ServerApp] http://aspj02:8889/odoo-sh/webshell/ws
+[I 2023-03-05 18:39:27.476 ServerApp]  or http://127.0.0.1:8889/odoo-sh/webshell/ws
+[I 2023-03-05 18:39:27.476 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 2023-03-05 18:39:27.478 ServerApp] No web browser found: could not locate runnable browser.
+[I 2023-03-05 18:39:27.813 WebshellApp] 302 GET /odoo-sh/webshell/ws (10.0.0.34) 0.64ms
+[D 2023-03-05 18:39:47.564 ServerApp] Using contents: services/contents
+[D 2023-03-05 18:39:47.583 ServerApp] Path favicon.ico served from /opt/odoo.sh/jupyterlab/lib/python3.8/site-packages/jupyter_server/static/favicon.ico
+[D 2023-03-05 18:39:47.584 ServerApp] Path style/bootstrap.min.css served from /opt/odoo.sh/jupyterlab/lib/python3.8/site-packages/jupyter_server/static/style/bootstrap.min.css
+[D 2023-03-05 18:39:47.584 ServerApp] Path style/bootstrap-theme.min.css served from /opt/odoo.sh/jupyterlab/lib/python3.8/site-packages/jupyter_server/static/style/bootstrap-theme.min.css
+[D 2023-03-05 18:39:47.584 ServerApp] Path style/index.css served from /opt/odoo.sh/jupyterlab/lib/python3.8/site-packages/jupyter_server/static/style/index.css
+[D 2023-03-05 18:39:47.585 ServerApp] Path logo/logo.png served from /opt/odoo.sh/jupyterlab/lib/python3.8/site-packages/jupyter_server/static/logo/logo.png
+[D 2023-03-05 18:39:47.585 ServerApp] 200 GET /odoo-sh/webshell/login?next=%2Fodoo-sh%2Fwebshell%2Fws?next=%2Fodoo-sh%2Fwebshell%2Fws (10.0.0.34) 21.91ms
+[I 2023-03-05 18:39:47.588 ServerApp] 302 POST /odoo-sh/webshell/login?next=%2Fodoo-sh%2Fwebshell%2Fws (10.0.0.34) 0.90ms
+[D 2023-03-05 18:39:47.836 ServerApp] Paths used for configuration of page_config: 
+    	/etc/jupyter/labconfig/page_config.json
+[D 2023-03-05 18:39:47.837 ServerApp] Paths used for configuration of page_config: 
+    	/usr/local/etc/jupyter/labconfig/page_config.json
+[D 2023-03-05 18:39:47.837 ServerApp] Paths used for configuration of page_config: 
+    	/home/odoo/.jupyter/labconfig/page_config.json
+[D 2023-03-05 18:39:47.838 ServerApp] Paths used for configuration of page_config: 
+    	/opt/odoo.sh/jupyterlab/etc/jupyter/labconfig/page_config.json
+[D 2023-03-05 18:39:47.839 WebshellApp] Using contents: services/contents
+[D 2023-03-05 18:39:47.843 WebshellApp] 200 GET /odoo-sh/webshell/ws (10.0.0.34) 8.84ms
+[D 2023-03-05 18:39:48.901 ServerApp] Path bundle.js served from /opt/odoo.sh/jupyterlab/lib/python3.8/site-packages/sh_webshell/static/bundle.js
+[D 2023-03-05 18:39:48.905 ServerApp] 200 GET /odoo-sh/webshell/static/sh_webshell/bundle.js (10.0.0.34) 4.75ms
+[D 2023-03-05 18:40:27.574 ServerApp] No activity for 60 seconds.
+[D 2023-03-05 18:41:27.576 ServerApp] No activity for 120 seconds.
+[D 2023-03-05 18:41:31.090 ServerApp] 200 GET /odoo-sh/webshell/api/terminals?1678041690217 (10.0.0.34) 0.79ms
+[I 2023-03-05 18:41:32.247 ServerApp] New terminal with automatic name: 1
+[I 2023-03-05 18:41:32.247 ServerApp] Culling terminals with inactivity > 14400 seconds at 1800 second intervals ...
+[D 2023-03-05 18:41:32.248 ServerApp] 200 POST /odoo-sh/webshell/api/terminals?1678041690541 (10.0.0.34) 5.96ms
+[D 2023-03-05 18:41:33.382 ServerApp] 200 GET /odoo-sh/webshell/api/terminals?1678041690551 (10.0.0.34) 1.28ms
+[D 2023-03-05 18:41:33.443 ServerApp] 200 GET /odoo-sh/webshell/api/terminals?1678041691666 (10.0.0.34) 1.11ms
+[D 2023-03-05 18:41:34.163 ServerApp] 101 GET /odoo-sh/webshell/terminals/websocket/1 (10.0.0.34) 1.20ms
+[D 2023-03-05 18:41:34.163 ServerApp] Opening websocket /odoo-sh/webshell/terminals/websocket/1
+[D 2023-03-05 18:41:43.788 ServerApp] 200 GET /odoo-sh/webshell/api/terminals?1678041703017 (10.0.0.34) 0.86ms
+[D 2023-03-05 18:41:53.975 ServerApp] 200 GET /odoo-sh/webshell/api/terminals?1678041713199 (10.0.0.34) 0.73ms
+[D 2023-03-05 18:42:23.931 ServerApp] 200 GET /odoo-sh/webshell/api/terminals?1678041743157 (10.0.0.34) 0.70ms
+[D 2023-03-05 18:42:35.951 ServerApp] 200 GET /odoo-sh/webshell/api/terminals?1678041754756 (10.0.0.34) 0.68ms
+[D 2023-03-05 18:42:46.394 ServerApp] 200 GET /odoo-sh/webshell/api/terminals?1678041765545 (10.0.0.34) 0.79ms
+[W 2023-03-05 18:43:04.250 ServerApp] WebSocket ping timeout after 90086 ms.
+[D 2023-03-05 18:43:10.781 ServerApp] 101 GET /odoo-sh/webshell/terminals/websocket/1 (10.0.0.34) 0.66ms
+[D 2023-03-05 18:43:10.781 ServerApp] Opening websocket /odoo-sh/webshell/terminals/websocket/1
+[D 2023-03-05 18:44:35.320 ServerApp] 200 GET /odoo-sh/webshell/api/terminals?1678041873946 (10.0.0.34) 0.69ms
+[D 2023-03-05 18:44:45.610 ServerApp] 200 GET /odoo-sh/webshell/api/terminals?1678041884721 (10.0.0.34) 0.89ms
+[D 2023-03-05 18:44:55.947 ServerApp] 200 GET /odoo-sh/webshell/api/terminals?1678041895010 (10.0.0.34) 0.87ms
+[D 2023-03-05 18:45:06.142 ServerApp] 200 GET /odoo-sh/webshell/api/terminals?1678041905349 (10.0.0.34) 0.68ms
+[D 2023-03-05 18:45:16.571 ServerApp] 200 GET /odoo-sh/webshell/api/terminals?1678041915540 (10.0.0.34) 0.93ms
+[D 2023-03-05 18:45:26.779 ServerApp] 200 GET /odoo-sh/webshell/api/terminals?1678041925970 (10.0.0.34) 0.66ms
+[D 2023-03-05 18:45:37.055 ServerApp] 200 GET /odoo-sh/webshell/api/terminals?1678041936190 (10.0.0.34) 0.70ms
+[I 2023-03-05 18:45:46.487 ServerApp] EOF on FD 15; stopping reading
+[I 2023-03-05 18:45:46.588 ServerApp] Terminal 1 closed
+[D 2023-03-05 18:45:46.589 ServerApp] 204 DELETE /odoo-sh/webshell/api/terminals/1?1678041945694 (10.0.0.34) 105.99ms
+[D 2023-03-05 18:45:46.812 ServerApp] 200 GET /odoo-sh/webshell/api/terminals?1678041945698 (10.0.0.34) 0.66ms
+[D 2023-03-05 18:45:51.932 ServerApp] Paths used for configuration of page_config: 
+    	/etc/jupyter/labconfig/page_config.json
+[D 2023-03-05 18:45:51.933 ServerApp] Paths used for configuration of page_config: 
+    	/usr/local/etc/jupyter/labconfig/page_config.json
+[D 2023-03-05 18:45:51.933 ServerApp] Paths used for configuration of page_config: 
+    	/home/odoo/.jupyter/labconfig/page_config.json
+[D 2023-03-05 18:45:51.933 ServerApp] Paths used for configuration of page_config: 
+    	/opt/odoo.sh/jupyterlab/etc/jupyter/labconfig/page_config.json
+[D 2023-03-05 18:45:51.934 WebshellApp] Using contents: services/contents
+[D 2023-03-05 18:45:51.934 WebshellApp] 200 GET /odoo-sh/webshell/ws (10.0.0.34) 3.83ms
+[D 2023-03-05 18:45:52.128 ServerApp] 304 GET /odoo-sh/webshell/static/sh_webshell/bundle.js (10.0.0.34) 0.80ms
+[D 2023-03-05 18:45:53.502 ServerApp] 200 GET /odoo-sh/webshell/api/terminals?1678041952726 (10.0.0.34) 0.64ms
+[I 2023-03-05 18:45:53.692 ServerApp] New terminal with automatic name: 1
+[D 2023-03-05 18:45:53.692 ServerApp] 200 POST /odoo-sh/webshell/api/terminals?1678041952914 (10.0.0.34) 5.75ms
+[D 2023-03-05 18:45:53.714 ServerApp] 200 GET /odoo-sh/webshell/api/terminals?1678041952922 (10.0.0.34) 0.86ms
+[D 2023-03-05 18:45:53.880 ServerApp] 200 GET /odoo-sh/webshell/api/terminals?1678041953089 (10.0.0.34) 0.91ms
+[D 2023-03-05 18:45:54.357 ServerApp] 101 GET /odoo-sh/webshell/terminals/websocket/1 (10.0.0.34) 0.97ms
+[D 2023-03-05 18:45:54.357 ServerApp] Opening websocket /odoo-sh/webshell/terminals/websocket/1
+[D 2023-03-05 18:46:04.093 ServerApp] 200 GET /odoo-sh/webshell/api/terminals?1678041963306 (10.0.0.34) 0.67ms
+[D 2023-03-05 18:46:14.281 ServerApp] 200 GET /odoo-sh/webshell/api/terminals?1678041973492 (10.0.0.34) 0.70ms
+[D 2023-03-05 18:46:24.467 ServerApp] 200 GET /odoo-sh/webshell/api/terminals?1678041983676 (10.0.0.34) 0.67ms
+[D 2023-03-05 18:46:34.665 ServerApp] 200 GET /odoo-sh/webshell/api/terminals?1678041993874 (10.0.0.34) 0.86ms
+[D 2023-03-05 18:46:44.844 ServerApp] 200 GET /odoo-sh/webshell/api/terminals?1678042004062 (10.0.0.34) 0.68ms
+[D 2023-03-05 18:46:55.130 ServerApp] 200 GET /odoo-sh/webshell/api/terminals?1678042014241 (10.0.0.34) 0.69ms
+[D 2023-03-05 18:47:06.149 ServerApp] 200 GET /odoo-sh/webshell/api/terminals?1678042025358 (10.0.0.34) 0.69ms
+[D 2023-03-05 18:47:17.909 ServerApp] 200 GET /odoo-sh/webshell/api/terminals?1678042037128 (10.0.0.34) 0.77ms
+[D 2023-03-05 18:47:28.178 ServerApp] 200 GET /odoo-sh/webshell/api/terminals?1678042047304 (10.0.0.34) 0.92ms
+[D 2023-03-05 18:47:39.851 ServerApp] 200 GET /odoo-sh/webshell/api/terminals?1678042059046 (10.0.0.34) 0.68ms
+[C 2023-03-05 18:53:44.314 ServerApp] received signal 15, stopping
+[I 2023-03-05 18:53:44.314 ServerApp] Shutting down 1 extension
+[D 2023-03-05 18:53:44.314 ServerApp] sh_webshell | extension app 'sh_webshell' stopping
+[D 2023-03-05 18:53:44.315 ServerApp] sh_webshell | extension app 'sh_webshell' stopped
+[D 2023-03-05 18:54:10.360 ServerApp] Searching ['/opt/odoo.sh/jupyterlab/etc/jupyter', '/home/odoo/.jupyter', '/usr/local/etc/jupyter', '/etc/jupyter'] for config files
+[D 2023-03-05 18:54:10.360 ServerApp] Looking for jupyter_config in /etc/jupyter
+[D 2023-03-05 18:54:10.360 ServerApp] Looking for jupyter_config in /usr/local/etc/jupyter
+[D 2023-03-05 18:54:10.360 ServerApp] Looking for jupyter_config in /home/odoo/.jupyter
+[D 2023-03-05 18:54:10.360 ServerApp] Looking for jupyter_config in /opt/odoo.sh/jupyterlab/etc/jupyter
+[D 2023-03-05 18:54:10.361 ServerApp] Looking for jupyter_server_config in /etc/jupyter
+[D 2023-03-05 18:54:10.361 ServerApp] Looking for jupyter_server_config in /usr/local/etc/jupyter
+[D 2023-03-05 18:54:10.361 ServerApp] Looking for jupyter_server_config in /home/odoo/.jupyter
+[D 2023-03-05 18:54:10.361 ServerApp] Looking for jupyter_server_config in /opt/odoo.sh/jupyterlab/etc/jupyter
+[I 2023-03-05 18:54:10.369 ServerApp] sh_webshell | extension was successfully linked.
+[D 2023-03-05 18:54:10.369 ServerApp] Default value for min_open_files_limit is ignored (hard=1024, soft=1024)
+[I 2023-03-05 18:54:10.390 ServerApp] sh_webshell | extension was successfully loaded.
+[I 2023-03-05 18:54:10.390 ServerApp] Will shut down after 1800 seconds with no kernels or terminals.
+[I 2023-03-05 18:54:10.391 ServerApp] sh_webshell is running without loading other extensions.
+[I 2023-03-05 18:54:10.391 ServerApp] Serving notebooks from local directory: /home/odoo
+[I 2023-03-05 18:54:10.391 ServerApp] Jupyter Server 1.23.2 is running at:
+[I 2023-03-05 18:54:10.391 ServerApp] http://aspj02:8889/odoo-sh/webshell/ws
+[I 2023-03-05 18:54:10.391 ServerApp]  or http://127.0.0.1:8889/odoo-sh/webshell/ws
+[I 2023-03-05 18:54:10.391 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 2023-03-05 18:54:10.393 ServerApp] No web browser found: could not locate runnable browser.
+[D 2023-03-05 18:54:10.643 ServerApp] Paths used for configuration of page_config: 
+    	/etc/jupyter/labconfig/page_config.json
+[D 2023-03-05 18:54:10.643 ServerApp] Paths used for configuration of page_config: 
+    	/usr/local/etc/jupyter/labconfig/page_config.json
+[D 2023-03-05 18:54:10.644 ServerApp] Paths used for configuration of page_config: 
+    	/home/odoo/.jupyter/labconfig/page_config.json
+[D 2023-03-05 18:54:10.644 ServerApp] Paths used for configuration of page_config: 
+    	/opt/odoo.sh/jupyterlab/etc/jupyter/labconfig/page_config.json
+[D 2023-03-05 18:54:10.645 WebshellApp] Using contents: services/contents
+[D 2023-03-05 18:54:10.648 WebshellApp] 200 GET /odoo-sh/webshell/ws (10.0.0.34) 6.31ms
+[D 2023-03-05 18:54:10.841 ServerApp] Path bundle.js served from /opt/odoo.sh/jupyterlab/lib/python3.8/site-packages/sh_webshell/static/bundle.js
+[D 2023-03-05 18:54:10.841 ServerApp] 304 GET /odoo-sh/webshell/static/sh_webshell/bundle.js (10.0.0.34) 0.98ms
+[D 2023-03-05 18:54:12.248 ServerApp] 200 GET /odoo-sh/webshell/api/terminals?1678042451453 (10.0.0.34) 0.96ms
+[I 2023-03-05 18:54:12.426 ServerApp] New terminal with automatic name: 1
+[I 2023-03-05 18:54:12.426 ServerApp] Culling terminals with inactivity > 14400 seconds at 1800 second intervals ...
+[D 2023-03-05 18:54:12.427 ServerApp] 200 POST /odoo-sh/webshell/api/terminals?1678042451630 (10.0.0.34) 5.18ms
+[D 2023-03-05 18:54:13.189 ServerApp] 200 GET /odoo-sh/webshell/api/terminals?1678042452390 (10.0.0.34) 1.09ms
+[D 2023-03-05 18:54:13.684 ServerApp] 101 GET /odoo-sh/webshell/terminals/websocket/1 (10.0.0.34) 1.10ms
+[D 2023-03-05 18:54:13.684 ServerApp] Opening websocket /odoo-sh/webshell/terminals/websocket/1
+[D 2023-03-05 18:54:23.392 ServerApp] 200 GET /odoo-sh/webshell/api/terminals?1678042462592 (10.0.0.34) 0.65ms
+[D 2023-03-05 18:54:33.573 ServerApp] 200 GET /odoo-sh/webshell/api/terminals?1678042472773 (10.0.0.34) 0.95ms
+[D 2023-03-05 18:54:50.582 ServerApp] 200 GET /odoo-sh/webshell/api/terminals?1678042482953 (10.0.0.34) 1.25ms
+[D 2023-03-05 18:55:02.204 ServerApp] 200 GET /odoo-sh/webshell/api/terminals?1678042499991 (10.0.0.34) 0.79ms
+[D 2023-03-05 18:55:33.988 ServerApp] 200 GET /odoo-sh/webshell/api/terminals?1678042532946 (10.0.0.34) 0.76ms
+[D 2023-03-05 18:55:47.004 ServerApp] 200 GET /odoo-sh/webshell/api/terminals?1678042544597 (10.0.0.34) 0.63ms
+[D 2023-03-05 18:55:57.184 ServerApp] 200 GET /odoo-sh/webshell/api/terminals?1678042556381 (10.0.0.34) 0.68ms

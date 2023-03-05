@@ -1,0 +1,185 @@
+2022-05-13 10:39:11,744 4 INFO ? odoo: Odoo version 15.0 
+2022-05-13 10:39:11,744 4 INFO ? odoo: Using configuration file at /home/odoo/.config/odoo/odoo.conf 
+2022-05-13 10:39:11,744 4 INFO ? odoo: addons paths: ['/home/odoo/src/odoo/odoo/addons', '/home/odoo/data/addons/15.0', '/home/odoo/src/user', '/home/odoo/src/odoo/addons', '/home/odoo/src/enterprise', '/home/odoo/src/themes'] 
+2022-05-13 10:39:11,744 4 INFO ? odoo: database: p_mbeusol_thechefz_master_4898808@192.168.1.1:5432 
+2022-05-13 10:39:11,753 4 INFO ? odoo: Could not determine if database mbeusol-thechefz-master-4898808 exists, skipping auto-creation: permission denied for table pg_database
+ 
+2022-05-13 10:39:11,926 4 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at /usr/local/bin/wkhtmltopdf 
+2022-05-13 10:39:12,319 4 INFO ? odoo.modules.loading: init db 
+2022-05-13 10:39:12,512 4 WARNING ? odoo.modules.module: Missing `license` key in manifest for 'chefz_reservations', defaulting to LGPL-3 
+2022-05-13 10:39:12,532 4 WARNING ? odoo.modules.module: Missing `license` key in manifest for 'ihp_prepaid_invoice', defaulting to LGPL-3 
+2022-05-13 10:39:12,535 4 WARNING ? odoo.modules.module: Missing `license` key in manifest for 'chefz_consignment', defaulting to LGPL-3 
+2022-05-13 10:39:12,555 4 WARNING ? odoo.modules.module: Missing `license` key in manifest for 'hr_policy', defaulting to LGPL-3 
+2022-05-13 10:39:12,619 4 WARNING ? odoo.modules.module: Missing `license` key in manifest for 'chefz_salary_rules', defaulting to LGPL-3 
+2022-05-13 10:39:12,674 4 WARNING ? odoo.modules.module: Missing `license` key in manifest for 'data_correction', defaulting to LGPL-3 
+2022-05-13 10:39:12,820 4 WARNING ? odoo.modules.module: Missing `license` key in manifest for 'ihp_hr', defaulting to LGPL-3 
+2022-05-13 10:39:13,025 4 WARNING ? odoo.modules.module: Missing `license` key in manifest for 'sh_base_bundle', defaulting to LGPL-3 
+2022-05-13 10:39:13,150 4 WARNING ? odoo.modules.module: Missing `license` key in manifest for 'payroll_information_report', defaulting to LGPL-3 
+2022-05-13 10:39:13,163 4 WARNING ? odoo.modules.module: Missing `license` key in manifest for 'multi_company_hide_any_menu', defaulting to LGPL-3 
+2022-05-13 10:39:13,351 4 WARNING ? odoo.modules.module: Missing `license` key in manifest for 'chefz_invoice_report', defaulting to LGPL-3 
+2022-05-13 10:39:13,445 4 WARNING ? odoo.modules.module: Missing `license` key in manifest for 'mobile_app_integration', defaulting to LGPL-3 
+2022-05-13 10:39:13,640 4 WARNING ? odoo.modules.module: Missing `license` key in manifest for 'hr_overtime', defaulting to LGPL-3 
+2022-05-13 10:39:13,645 4 WARNING ? odoo.modules.module: Missing `license` key in manifest for 'hr_days_off', defaulting to LGPL-3 
+2022-05-13 10:39:13,705 4 INFO mbeusol-thechefz-master-4898808 odoo.modules.loading: loading 1 modules... 
+2022-05-13 10:39:13,706 4 INFO mbeusol-thechefz-master-4898808 odoo.modules.loading: Loading module base (1/1) 
+2022-05-13 10:39:13,742 4 INFO mbeusol-thechefz-master-4898808 odoo.modules.registry: module base: creating or updating database tables 
+2022-05-13 10:39:14,764 4 INFO mbeusol-thechefz-master-4898808 odoo.models: Storing computed values of ir.module.module.menus_by_module 
+2022-05-13 10:39:14,764 4 INFO mbeusol-thechefz-master-4898808 odoo.models: Storing computed values of ir.module.module.reports_by_module 
+2022-05-13 10:39:14,764 4 INFO mbeusol-thechefz-master-4898808 odoo.models: Storing computed values of ir.module.module.views_by_module 
+2022-05-13 10:39:14,766 4 INFO mbeusol-thechefz-master-4898808 odoo.models: Storing computed values of res.partner.display_name 
+2022-05-13 10:39:14,766 4 INFO mbeusol-thechefz-master-4898808 odoo.models: Storing computed values of res.partner.partner_share 
+2022-05-13 10:39:14,766 4 INFO mbeusol-thechefz-master-4898808 odoo.models: Storing computed values of res.partner.commercial_partner_id 
+2022-05-13 10:39:14,766 4 INFO mbeusol-thechefz-master-4898808 odoo.models: Storing computed values of res.partner.commercial_company_name 
+2022-05-13 10:39:14,767 4 INFO mbeusol-thechefz-master-4898808 odoo.models: Storing computed values of res.currency.decimal_places 
+2022-05-13 10:39:14,770 4 INFO mbeusol-thechefz-master-4898808 odoo.models: Storing computed values of res.company.logo_web 
+2022-05-13 10:39:14,770 4 INFO mbeusol-thechefz-master-4898808 odoo.models: Storing computed values of res.company.company_registry 
+2022-05-13 10:39:14,773 4 INFO mbeusol-thechefz-master-4898808 odoo.models: Storing computed values of res.users.share 
+2022-05-13 10:39:15,911 4 INFO mbeusol-thechefz-master-4898808 odoo.modules.loading: loading base/data/res_bank.xml 
+2022-05-13 10:39:15,916 4 INFO mbeusol-thechefz-master-4898808 odoo.modules.loading: loading base/data/res.lang.csv 
+2022-05-13 10:39:15,972 4 INFO mbeusol-thechefz-master-4898808 odoo.modules.loading: loading base/data/res_lang_data.xml 
+2022-05-13 10:39:15,992 4 INFO mbeusol-thechefz-master-4898808 odoo.modules.loading: loading base/data/res_partner_data.xml 
+2022-05-13 10:39:16,052 4 INFO mbeusol-thechefz-master-4898808 odoo.modules.loading: loading base/data/res_company_data.xml 
+2022-05-13 10:39:16,063 4 INFO mbeusol-thechefz-master-4898808 odoo.modules.loading: loading base/data/res_users_data.xml 
+2022-05-13 10:39:16,133 4 INFO mbeusol-thechefz-master-4898808 odoo.modules.loading: loading base/data/report_paperformat_data.xml 
+2022-05-13 10:39:16,140 4 INFO mbeusol-thechefz-master-4898808 odoo.modules.loading: loading base/data/res_currency_data.xml 
+2022-05-13 10:39:16,471 4 INFO mbeusol-thechefz-master-4898808 odoo.modules.loading: loading base/data/res_country_data.xml 
+2022-05-13 10:39:16,818 4 INFO mbeusol-thechefz-master-4898808 odoo.modules.loading: loading base/data/ir_demo_data.xml 
+2022-05-13 10:39:16,827 4 INFO mbeusol-thechefz-master-4898808 odoo.modules.loading: loading base/data/ir_config_parameter_data.xml 
+2022-05-13 10:39:16,834 4 INFO mbeusol-thechefz-master-4898808 odoo.modules.loading: loading base/security/base_groups.xml 
+2022-05-13 10:39:17,235 4 INFO mbeusol-thechefz-master-4898808 odoo.modules.loading: loading base/security/base_security.xml 
+2022-05-13 10:39:17,400 4 INFO mbeusol-thechefz-master-4898808 odoo.modules.loading: loading base/views/base_menus.xml 
+2022-05-13 10:39:17,463 4 INFO mbeusol-thechefz-master-4898808 odoo.modules.loading: loading base/views/decimal_precision_views.xml 
+2022-05-13 10:39:17,476 4 INFO mbeusol-thechefz-master-4898808 odoo.modules.loading: loading base/views/res_config_views.xml 
+2022-05-13 10:39:17,483 4 INFO mbeusol-thechefz-master-4898808 odoo.modules.loading: loading base/data/res.country.state.csv 
+2022-05-13 10:39:18,134 4 INFO mbeusol-thechefz-master-4898808 odoo.modules.loading: loading base/views/ir_actions_views.xml 
+2022-05-13 10:39:18,218 4 INFO mbeusol-thechefz-master-4898808 odoo.modules.loading: loading base/views/ir_asset_views.xml 
+2022-05-13 10:39:18,232 4 INFO mbeusol-thechefz-master-4898808 odoo.modules.loading: loading base/views/ir_config_parameter_views.xml 
+2022-05-13 10:39:18,246 4 INFO mbeusol-thechefz-master-4898808 odoo.modules.loading: loading base/views/ir_cron_views.xml 
+2022-05-13 10:39:18,268 4 INFO mbeusol-thechefz-master-4898808 odoo.modules.loading: loading base/views/ir_cron_trigger_views.xml 
+2022-05-13 10:39:18,282 4 INFO mbeusol-thechefz-master-4898808 odoo.modules.loading: loading base/views/ir_filters_views.xml 
+2022-05-13 10:39:18,297 4 INFO mbeusol-thechefz-master-4898808 odoo.modules.loading: loading base/views/ir_mail_server_views.xml 
+2022-05-13 10:39:18,312 4 INFO mbeusol-thechefz-master-4898808 odoo.modules.loading: loading base/views/ir_model_views.xml 
+2022-05-13 10:39:18,424 4 INFO mbeusol-thechefz-master-4898808 odoo.modules.loading: loading base/views/ir_attachment_views.xml 
+2022-05-13 10:39:18,444 4 INFO mbeusol-thechefz-master-4898808 odoo.modules.loading: loading base/views/ir_rule_views.xml 
+2022-05-13 10:39:18,463 4 INFO mbeusol-thechefz-master-4898808 odoo.modules.loading: loading base/views/ir_sequence_views.xml 
+2022-05-13 10:39:18,479 4 INFO mbeusol-thechefz-master-4898808 odoo.modules.loading: loading base/views/ir_translation_views.xml 
+2022-05-13 10:39:18,503 4 INFO mbeusol-thechefz-master-4898808 odoo.modules.loading: loading base/views/ir_ui_menu_views.xml 
+2022-05-13 10:39:18,520 4 INFO mbeusol-thechefz-master-4898808 odoo.modules.loading: loading base/views/ir_ui_view_views.xml 
+2022-05-13 10:39:18,558 4 INFO mbeusol-thechefz-master-4898808 odoo.modules.loading: loading base/views/ir_default_views.xml 
+2022-05-13 10:39:18,574 4 INFO mbeusol-thechefz-master-4898808 odoo.modules.loading: loading base/data/ir_cron_data.xml 
+2022-05-13 10:39:18,580 4 INFO mbeusol-thechefz-master-4898808 odoo.modules.loading: loading base/report/ir_model_report.xml 
+2022-05-13 10:39:18,584 4 INFO mbeusol-thechefz-master-4898808 odoo.modules.loading: loading base/report/ir_model_templates.xml 
+2022-05-13 10:39:18,588 4 INFO mbeusol-thechefz-master-4898808 odoo.modules.loading: loading base/views/ir_logging_views.xml 
+2022-05-13 10:39:18,602 4 INFO mbeusol-thechefz-master-4898808 odoo.modules.loading: loading base/views/ir_qweb_widget_templates.xml 
+2022-05-13 10:39:18,609 4 INFO mbeusol-thechefz-master-4898808 odoo.modules.loading: loading base/views/ir_module_views.xml 
+2022-05-13 10:39:18,664 4 INFO mbeusol-thechefz-master-4898808 odoo.modules.loading: loading base/data/ir_module_category_data.xml 
+2022-05-13 10:39:18,725 4 INFO mbeusol-thechefz-master-4898808 odoo.modules.loading: loading base/data/ir_module_module.xml 
+2022-05-13 10:39:18,783 4 INFO mbeusol-thechefz-master-4898808 odoo.modules.loading: loading base/report/ir_module_reports.xml 
+2022-05-13 10:39:18,786 4 INFO mbeusol-thechefz-master-4898808 odoo.modules.loading: loading base/report/ir_module_report_templates.xml 
+2022-05-13 10:39:18,791 4 INFO mbeusol-thechefz-master-4898808 odoo.modules.loading: loading base/wizard/base_module_update_views.xml 
+2022-05-13 10:39:18,801 4 INFO mbeusol-thechefz-master-4898808 odoo.modules.loading: loading base/wizard/base_language_install_views.xml 
+2022-05-13 10:39:18,807 4 INFO mbeusol-thechefz-master-4898808 odoo.modules.loading: loading base/wizard/base_import_language_views.xml 
+2022-05-13 10:39:18,817 4 INFO mbeusol-thechefz-master-4898808 odoo.modules.loading: loading base/wizard/base_module_upgrade_views.xml 
+2022-05-13 10:39:18,831 4 INFO mbeusol-thechefz-master-4898808 odoo.modules.loading: loading base/wizard/base_module_uninstall_views.xml 
+2022-05-13 10:39:18,836 4 INFO mbeusol-thechefz-master-4898808 odoo.modules.loading: loading base/wizard/base_export_language_views.xml 
+2022-05-13 10:39:18,846 4 INFO mbeusol-thechefz-master-4898808 odoo.modules.loading: loading base/wizard/base_update_translations_views.xml 
+2022-05-13 10:39:18,855 4 INFO mbeusol-thechefz-master-4898808 odoo.modules.loading: loading base/wizard/base_partner_merge_views.xml 
+2022-05-13 10:39:18,866 4 INFO mbeusol-thechefz-master-4898808 odoo.modules.loading: loading base/data/ir_actions_data.xml 
+2022-05-13 10:39:18,869 4 INFO mbeusol-thechefz-master-4898808 odoo.modules.loading: loading base/data/ir_demo_failure_data.xml 
+2022-05-13 10:39:18,879 4 INFO mbeusol-thechefz-master-4898808 odoo.modules.loading: loading base/views/ir_profile_views.xml 
+2022-05-13 10:39:18,900 4 INFO mbeusol-thechefz-master-4898808 odoo.modules.loading: loading base/views/res_company_views.xml 
+2022-05-13 10:39:18,918 4 INFO mbeusol-thechefz-master-4898808 odoo.modules.loading: loading base/views/res_lang_views.xml 
+2022-05-13 10:39:18,935 4 INFO mbeusol-thechefz-master-4898808 odoo.modules.loading: loading base/views/res_partner_views.xml 
+2022-05-13 10:39:19,023 4 INFO mbeusol-thechefz-master-4898808 odoo.modules.loading: loading base/views/res_bank_views.xml 
+2022-05-13 10:39:19,048 4 INFO mbeusol-thechefz-master-4898808 odoo.modules.loading: loading base/views/res_country_views.xml 
+2022-05-13 10:39:19,077 4 INFO mbeusol-thechefz-master-4898808 odoo.modules.loading: loading base/views/res_currency_views.xml 
+2022-05-13 10:39:19,105 4 INFO mbeusol-thechefz-master-4898808 odoo.modules.loading: loading base/views/res_users_views.xml 
+2022-05-13 10:39:19,190 4 INFO mbeusol-thechefz-master-4898808 odoo.modules.loading: loading base/views/ir_property_views.xml 
+2022-05-13 10:39:19,206 4 INFO mbeusol-thechefz-master-4898808 odoo.modules.loading: loading base/views/res_config_settings_views.xml 
+2022-05-13 10:39:19,212 4 INFO mbeusol-thechefz-master-4898808 odoo.modules.loading: loading base/views/report_paperformat_views.xml 
+2022-05-13 10:39:19,233 4 INFO mbeusol-thechefz-master-4898808 odoo.modules.loading: loading base/views/onboarding_views.xml 
+2022-05-13 10:39:19,253 4 INFO mbeusol-thechefz-master-4898808 odoo.modules.loading: loading base/security/ir.model.access.csv 
+2022-05-13 10:39:19,449 4 INFO mbeusol-thechefz-master-4898808 odoo.modules.loading: Module base loaded in 5.74s, 9591 queries (+1 other) 
+2022-05-13 10:39:19,449 4 INFO mbeusol-thechefz-master-4898808 odoo.modules.loading: 1 modules loaded in 5.74s, 9591 queries (+1 extra) 
+2022-05-13 10:39:19,463 4 INFO mbeusol-thechefz-master-4898808 odoo.modules.loading: updating modules list 
+2022-05-13 10:39:19,464 4 INFO mbeusol-thechefz-master-4898808 odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via n/a 
+2022-05-13 10:39:19,626 4 WARNING mbeusol-thechefz-master-4898808 odoo.modules.module: Missing `license` key in manifest for 'chefz_reservations', defaulting to LGPL-3 
+2022-05-13 10:39:19,641 4 WARNING mbeusol-thechefz-master-4898808 odoo.modules.module: Missing `license` key in manifest for 'ihp_prepaid_invoice', defaulting to LGPL-3 
+2022-05-13 10:39:19,645 4 WARNING mbeusol-thechefz-master-4898808 odoo.modules.module: Missing `license` key in manifest for 'chefz_consignment', defaulting to LGPL-3 
+2022-05-13 10:39:19,664 4 WARNING mbeusol-thechefz-master-4898808 odoo.modules.module: Missing `license` key in manifest for 'hr_policy', defaulting to LGPL-3 
+2022-05-13 10:39:19,723 4 WARNING mbeusol-thechefz-master-4898808 odoo.modules.module: Missing `license` key in manifest for 'chefz_salary_rules', defaulting to LGPL-3 
+2022-05-13 10:39:19,769 4 WARNING mbeusol-thechefz-master-4898808 odoo.modules.module: Missing `license` key in manifest for 'data_correction', defaulting to LGPL-3 
+2022-05-13 10:39:19,886 4 WARNING mbeusol-thechefz-master-4898808 odoo.modules.module: Missing `license` key in manifest for 'ihp_hr', defaulting to LGPL-3 
+2022-05-13 10:39:20,034 4 WARNING mbeusol-thechefz-master-4898808 odoo.modules.module: Missing `license` key in manifest for 'sh_base_bundle', defaulting to LGPL-3 
+2022-05-13 10:39:20,139 4 WARNING mbeusol-thechefz-master-4898808 odoo.modules.module: Missing `license` key in manifest for 'payroll_information_report', defaulting to LGPL-3 
+2022-05-13 10:39:20,153 4 WARNING mbeusol-thechefz-master-4898808 odoo.modules.module: Missing `license` key in manifest for 'multi_company_hide_any_menu', defaulting to LGPL-3 
+2022-05-13 10:39:20,273 4 WARNING mbeusol-thechefz-master-4898808 odoo.modules.module: Missing `license` key in manifest for 'chefz_invoice_report', defaulting to LGPL-3 
+2022-05-13 10:39:20,331 4 WARNING mbeusol-thechefz-master-4898808 odoo.modules.module: Missing `license` key in manifest for 'mobile_app_integration', defaulting to LGPL-3 
+2022-05-13 10:39:20,465 4 WARNING mbeusol-thechefz-master-4898808 odoo.modules.module: Missing `license` key in manifest for 'hr_overtime', defaulting to LGPL-3 
+2022-05-13 10:39:20,470 4 WARNING mbeusol-thechefz-master-4898808 odoo.modules.module: Missing `license` key in manifest for 'hr_days_off', defaulting to LGPL-3 
+2022-05-13 10:39:20,535 4 INFO mbeusol-thechefz-master-4898808 odoo.modules.loading: loading 13 modules... 
+2022-05-13 10:39:20,535 4 INFO mbeusol-thechefz-master-4898808 odoo.modules.loading: Loading module web (2/13) 
+2022-05-13 10:39:20,568 4 INFO mbeusol-thechefz-master-4898808 odoo.modules.registry: module web: creating or updating database tables 
+2022-05-13 10:39:20,966 4 INFO mbeusol-thechefz-master-4898808 odoo.modules.loading: loading web/security/ir.model.access.csv 
+2022-05-13 10:39:20,976 4 INFO mbeusol-thechefz-master-4898808 odoo.modules.loading: loading web/views/webclient_templates.xml 
+2022-05-13 10:39:21,017 4 INFO mbeusol-thechefz-master-4898808 odoo.modules.loading: loading web/views/report_templates.xml 
+2022-05-13 10:39:21,080 4 INFO mbeusol-thechefz-master-4898808 odoo.modules.loading: loading web/views/base_document_layout_views.xml 
+2022-05-13 10:39:21,089 4 INFO mbeusol-thechefz-master-4898808 odoo.modules.loading: loading web/views/speedscope_template.xml 
+2022-05-13 10:39:21,093 4 INFO mbeusol-thechefz-master-4898808 odoo.modules.loading: loading web/views/lazy_assets.xml 
+2022-05-13 10:39:21,099 4 INFO mbeusol-thechefz-master-4898808 odoo.modules.loading: loading web/data/report_layout.xml 
+2022-05-13 10:39:21,138 4 INFO mbeusol-thechefz-master-4898808 odoo.modules.loading: Module web loaded in 0.60s, 887 queries 
+2022-05-13 10:39:21,138 4 INFO mbeusol-thechefz-master-4898808 odoo.modules.loading: Loading module auth_totp (3/13) 
+2022-05-13 10:39:21,176 4 INFO mbeusol-thechefz-master-4898808 odoo.modules.registry: module auth_totp: creating or updating database tables 
+2022-05-13 10:39:21,242 4 INFO mbeusol-thechefz-master-4898808 odoo.modules.loading: loading auth_totp/security/security.xml 
+2022-05-13 10:39:21,267 4 INFO mbeusol-thechefz-master-4898808 odoo.modules.loading: loading auth_totp/security/ir.model.access.csv 
+2022-05-13 10:39:21,278 4 INFO mbeusol-thechefz-master-4898808 odoo.modules.loading: loading auth_totp/data/ir_action_data.xml 
+2022-05-13 10:39:21,283 4 INFO mbeusol-thechefz-master-4898808 odoo.modules.loading: loading auth_totp/views/res_users_views.xml 
+2022-05-13 10:39:21,304 4 INFO mbeusol-thechefz-master-4898808 odoo.modules.loading: loading auth_totp/views/templates.xml 
+2022-05-13 10:39:21,309 4 INFO mbeusol-thechefz-master-4898808 odoo.modules.loading: loading auth_totp/wizard/auth_totp_wizard_views.xml 
+2022-05-13 10:39:21,328 4 INFO mbeusol-thechefz-master-4898808 odoo.modules.loading: Module auth_totp loaded in 0.19s, 192 queries 
+2022-05-13 10:39:21,329 4 INFO mbeusol-thechefz-master-4898808 odoo.modules.loading: Loading module base_import (4/13) 
+2022-05-13 10:39:21,384 4 INFO mbeusol-thechefz-master-4898808 odoo.modules.registry: module base_import: creating or updating database tables 
+2022-05-13 10:39:22,007 4 INFO mbeusol-thechefz-master-4898808 odoo.modules.loading: loading base_import/security/ir.model.access.csv 
+2022-05-13 10:39:22,052 4 INFO mbeusol-thechefz-master-4898808 odoo.modules.loading: Module base_import loaded in 0.72s, 919 queries 
+2022-05-13 10:39:22,052 4 INFO mbeusol-thechefz-master-4898808 odoo.modules.loading: Loading module web_cohort (5/13) 
+2022-05-13 10:39:22,098 4 INFO mbeusol-thechefz-master-4898808 odoo.modules.registry: module web_cohort: creating or updating database tables 
+2022-05-13 10:39:22,570 4 INFO mbeusol-thechefz-master-4898808 odoo.modules.loading: Module web_cohort loaded in 0.52s, 687 queries 
+2022-05-13 10:39:22,570 4 INFO mbeusol-thechefz-master-4898808 odoo.modules.loading: Loading module web_dashboard (6/13) 
+2022-05-13 10:39:22,613 4 INFO mbeusol-thechefz-master-4898808 odoo.modules.registry: module web_dashboard: creating or updating database tables 
+2022-05-13 10:39:23,027 4 INFO mbeusol-thechefz-master-4898808 odoo.modules.loading: Module web_dashboard loaded in 0.46s, 687 queries 
+2022-05-13 10:39:23,028 4 INFO mbeusol-thechefz-master-4898808 odoo.modules.loading: Loading module web_editor (7/13) 
+2022-05-13 10:39:23,103 4 INFO mbeusol-thechefz-master-4898808 odoo.modules.registry: module web_editor: creating or updating database tables 
+2022-05-13 10:39:23,200 4 INFO mbeusol-thechefz-master-4898808 odoo.modules.loading: loading web_editor/security/ir.model.access.csv 
+2022-05-13 10:39:23,211 4 INFO mbeusol-thechefz-master-4898808 odoo.modules.loading: loading web_editor/data/editor_assets.xml 
+2022-05-13 10:39:23,216 4 INFO mbeusol-thechefz-master-4898808 odoo.modules.loading: loading web_editor/views/editor.xml 
+2022-05-13 10:39:23,235 4 INFO mbeusol-thechefz-master-4898808 odoo.modules.loading: loading web_editor/views/snippets.xml 
+2022-05-13 10:39:23,269 4 INFO mbeusol-thechefz-master-4898808 odoo.modules.loading: Module web_editor loaded in 0.24s, 245 queries 
+2022-05-13 10:39:23,269 4 INFO mbeusol-thechefz-master-4898808 odoo.modules.loading: Loading module web_enterprise (8/13) 
+2022-05-13 10:39:23,309 4 INFO mbeusol-thechefz-master-4898808 odoo.modules.registry: module web_enterprise: creating or updating database tables 
+2022-05-13 10:39:23,343 4 INFO mbeusol-thechefz-master-4898808 odoo.modules.loading: loading web_enterprise/views/partner_view.xml 
+2022-05-13 10:39:23,359 4 INFO mbeusol-thechefz-master-4898808 odoo.modules.loading: loading web_enterprise/views/webclient_templates.xml 
+2022-05-13 10:39:23,381 4 INFO mbeusol-thechefz-master-4898808 odoo.modules.loading: Module web_enterprise loaded in 0.11s, 92 queries 
+2022-05-13 10:39:23,382 4 INFO mbeusol-thechefz-master-4898808 odoo.modules.loading: Loading module web_gantt (9/13) 
+2022-05-13 10:39:23,425 4 INFO mbeusol-thechefz-master-4898808 odoo.modules.registry: module web_gantt: creating or updating database tables 
+2022-05-13 10:39:23,866 4 INFO mbeusol-thechefz-master-4898808 odoo.modules.loading: Module web_gantt loaded in 0.48s, 695 queries 
+2022-05-13 10:39:23,866 4 INFO mbeusol-thechefz-master-4898808 odoo.modules.loading: Loading module web_grid (10/13) 
+2022-05-13 10:39:23,916 4 INFO mbeusol-thechefz-master-4898808 odoo.modules.registry: module web_grid: creating or updating database tables 
+2022-05-13 10:39:24,331 4 INFO mbeusol-thechefz-master-4898808 odoo.modules.loading: Module web_grid loaded in 0.46s, 698 queries 
+2022-05-13 10:39:24,331 4 INFO mbeusol-thechefz-master-4898808 odoo.modules.loading: Loading module web_kanban_gauge (11/13) 
+2022-05-13 10:39:24,440 4 INFO mbeusol-thechefz-master-4898808 odoo.modules.loading: Module web_kanban_gauge loaded in 0.11s, 18 queries 
+2022-05-13 10:39:24,440 4 INFO mbeusol-thechefz-master-4898808 odoo.modules.loading: Loading module web_tour (12/13) 
+2022-05-13 10:39:24,477 4 INFO mbeusol-thechefz-master-4898808 odoo.modules.registry: module web_tour: creating or updating database tables 
+2022-05-13 10:39:24,515 4 INFO mbeusol-thechefz-master-4898808 odoo.modules.loading: loading web_tour/security/ir.model.access.csv 
+2022-05-13 10:39:24,526 4 INFO mbeusol-thechefz-master-4898808 odoo.modules.loading: loading web_tour/security/ir.rule.csv 
+2022-05-13 10:39:24,535 4 INFO mbeusol-thechefz-master-4898808 odoo.modules.loading: loading web_tour/views/tour_views.xml 
+2022-05-13 10:39:24,564 4 INFO mbeusol-thechefz-master-4898808 odoo.modules.loading: Module web_tour loaded in 0.12s, 116 queries 
+2022-05-13 10:39:24,564 4 INFO mbeusol-thechefz-master-4898808 odoo.modules.loading: Loading module web_mobile (13/13) 
+2022-05-13 10:39:24,602 4 INFO mbeusol-thechefz-master-4898808 odoo.modules.registry: module web_mobile: creating or updating database tables 
+2022-05-13 10:39:24,642 4 INFO mbeusol-thechefz-master-4898808 odoo.modules.loading: loading web_mobile/views/views.xml 
+2022-05-13 10:39:24,665 4 INFO mbeusol-thechefz-master-4898808 odoo.modules.loading: Module web_mobile loaded in 0.10s, 75 queries 
+2022-05-13 10:39:24,665 4 INFO mbeusol-thechefz-master-4898808 odoo.modules.loading: 13 modules loaded in 4.13s, 5311 queries (+0 extra) 
+2022-05-13 10:39:24,832 4 INFO mbeusol-thechefz-master-4898808 odoo.modules.loading: Modules loaded. 
+2022-05-13 10:39:24,834 4 INFO mbeusol-thechefz-master-4898808 odoo.modules.registry: Registry loaded in 12.534s 
+2022-05-13 10:39:24,834 4 INFO mbeusol-thechefz-master-4898808 odoo.service.server: Initiating shutdown 
+2022-05-13 10:39:24,834 4 INFO mbeusol-thechefz-master-4898808 odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2022-05-13 10:39:24,835 4 INFO mbeusol-thechefz-master-4898808 odoo.sql_db: ConnectionPool(used=0/count=0/max=16): Closed 2 connections  

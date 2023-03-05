@@ -1,0 +1,270 @@
+[D 2022-05-23 14:54:32.183 ServerApp] Searching ['/home/odoo', '/home/odoo/.jupyter', '/opt/odoo.sh/jupyterlab/etc/jupyter', '/usr/local/etc/jupyter', '/etc/jupyter'] for config files
+[D 2022-05-23 14:54:32.184 ServerApp] Looking for jupyter_config in /etc/jupyter
+[D 2022-05-23 14:54:32.184 ServerApp] Looking for jupyter_config in /usr/local/etc/jupyter
+[D 2022-05-23 14:54:32.184 ServerApp] Looking for jupyter_config in /opt/odoo.sh/jupyterlab/etc/jupyter
+[D 2022-05-23 14:54:32.184 ServerApp] Looking for jupyter_config in /home/odoo/.jupyter
+[D 2022-05-23 14:54:32.184 ServerApp] Looking for jupyter_config in /home/odoo
+[D 2022-05-23 14:54:32.185 ServerApp] Looking for jupyter_server_config in /etc/jupyter
+[D 2022-05-23 14:54:32.185 ServerApp] Looking for jupyter_server_config in /usr/local/etc/jupyter
+[D 2022-05-23 14:54:32.185 ServerApp] Looking for jupyter_server_config in /opt/odoo.sh/jupyterlab/etc/jupyter
+[D 2022-05-23 14:54:32.185 ServerApp] Looking for jupyter_server_config in /home/odoo/.jupyter
+[D 2022-05-23 14:54:32.185 ServerApp] Looking for jupyter_server_config in /home/odoo
+[D 2022-05-23 14:54:32.187 ServerApp] Paths used for configuration of jupyter_server_config: 
+    	/etc/jupyter/jupyter_server_config.json
+[D 2022-05-23 14:54:32.188 ServerApp] Paths used for configuration of jupyter_server_config: 
+    	/usr/local/etc/jupyter/jupyter_server_config.json
+[D 2022-05-23 14:54:32.188 ServerApp] Paths used for configuration of jupyter_server_config: 
+    	/opt/odoo.sh/jupyterlab/etc/jupyter/jupyter_server_config.d/jupyterlab.json
+    	/opt/odoo.sh/jupyterlab/etc/jupyter/jupyter_server_config.d/nbclassic.json
+    	/opt/odoo.sh/jupyterlab/etc/jupyter/jupyter_server_config.json
+[D 2022-05-23 14:54:32.188 ServerApp] Paths used for configuration of jupyter_server_config: 
+    	/home/odoo/.jupyter/jupyter_server_config.json
+[D 2022-05-23 14:54:32.201 LabApp] Config changed: {'NotebookApp': {}, 'ServerApp': {'ip': '0.0.0.0', 'port': 8888, 'port_retries': 0, 'base_url': '/odoo-sh/editor', 'password': 'sha1:c6303c956114894f118b3a1c1:2205c845a9509963c3c4d1198bb1403798ed2246', 'contents_manager_class': 'odoo_paas.OdooLargeFileManager', 'login_handler_class': 'odoo_paas.OdooLoginHandler', 'log_level': 'DEBUG', 'jpserver_extensions': <LazyConfigValue {'update': {'nbclassic': True}}>}, 'FileContentsManager': {'delete_to_trash': False}, 'ExtensionApp': {'log_level': 'DEBUG'}}
+[I 2022-05-23 14:54:32.202 ServerApp] jupyterlab | extension was successfully linked.
+[D 2022-05-23 14:54:32.211 NotebookApp] Config changed: {'NotebookApp': {}, 'ServerApp': {'terminado_settings': {'shell_command': ['/usr/bin/env', 'TERM=xterm-256color', '/bin/bash']}, 'ip': '0.0.0.0', 'port': 8888, 'port_retries': 0, 'base_url': '/odoo-sh/editor', 'password': 'sha1:c6303c956114894f118b3a1c1:2205c845a9509963c3c4d1198bb1403798ed2246', 'contents_manager_class': 'odoo_paas.OdooLargeFileManager', 'login_handler_class': 'odoo_paas.OdooLoginHandler', 'log_level': 'DEBUG', 'jpserver_extensions': <LazyConfigValue value={'jupyterlab': True, 'nbclassic': True}>}, 'FileContentsManager': {'delete_to_trash': False}, 'ExtensionApp': {'log_level': 'DEBUG'}}
+[D 2022-05-23 14:54:32.383 ServerApp] Paths used for configuration of jupyter_notebook_config: 
+    	/home/odoo/.jupyter/jupyter_notebook_config.json
+[D 2022-05-23 14:54:32.384 ServerApp] Paths used for configuration of jupyter_notebook_config: 
+    	/etc/jupyter/jupyter_notebook_config.json
+[D 2022-05-23 14:54:32.384 ServerApp] Paths used for configuration of jupyter_notebook_config: 
+    	/usr/local/etc/jupyter/jupyter_notebook_config.json
+[D 2022-05-23 14:54:32.384 ServerApp] Paths used for configuration of jupyter_notebook_config: 
+    	/opt/odoo.sh/jupyterlab/etc/jupyter/jupyter_notebook_config.d/jupyterlab.json
+    	/opt/odoo.sh/jupyterlab/etc/jupyter/jupyter_notebook_config.d/odoo_paas.json
+    	/opt/odoo.sh/jupyterlab/etc/jupyter/jupyter_notebook_config.json
+[D 2022-05-23 14:54:32.385 ServerApp] Paths used for configuration of jupyter_notebook_config: 
+    	/home/odoo/.jupyter/jupyter_notebook_config.json
+[I 2022-05-23 14:54:32.385 ServerApp] odoo_paas | extension was found and enabled by nbclassic. Consider moving the extension to Jupyter Server's extension paths.
+[I 2022-05-23 14:54:32.385 ServerApp] odoo_paas | extension was successfully linked.
+[I 2022-05-23 14:54:32.385 ServerApp] nbclassic | extension was successfully linked.
+[D 2022-05-23 14:54:32.386 ServerApp] Config changed: {'FileContentsManager': {'delete_to_trash': False}, 'ExtensionApp': {'log_level': 'DEBUG'}, 'NotebookApp': {}, 'ServerApp': {'terminado_settings': {'shell_command': ['/usr/bin/env', 'TERM=xterm-256color', '/bin/bash']}, 'ip': '0.0.0.0', 'port': 8888, 'port_retries': 0, 'base_url': '/odoo-sh/editor', 'password': 'sha1:c6303c956114894f118b3a1c1:2205c845a9509963c3c4d1198bb1403798ed2246', 'contents_manager_class': 'odoo_paas.OdooLargeFileManager', 'login_handler_class': 'odoo_paas.OdooLoginHandler', 'log_level': 'DEBUG', 'jpserver_extensions': <LazyConfigValue value={'jupyterlab': True, 'nbclassic': True}>}}
+[I 2022-05-23 14:54:32.421 ServerApp] nbclassic | extension was successfully loaded.
+[I 2022-05-23 14:54:32.423 LabApp] JupyterLab extension loaded from /opt/odoo.sh/jupyterlab/lib/python3.8/site-packages/jupyterlab
+[I 2022-05-23 14:54:32.423 LabApp] JupyterLab application directory is /opt/odoo.sh/jupyterlab/share/jupyter/lab
+[I 2022-05-23 14:54:32.426 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2022-05-23 14:54:32.426 ServerApp] odoo_paas module enabled!
+[I 2022-05-23 14:54:32.427 ServerApp] odoo_paas | extension was successfully loaded.
+[I 2022-05-23 14:54:32.428 ServerApp] Serving notebooks from local directory: 
+[I 2022-05-23 14:54:32.428 ServerApp] Jupyter Server 1.8.0 is running at:
+[I 2022-05-23 14:54:32.428 ServerApp] http://aspp17:8888/odoo-sh/editor/lab
+[I 2022-05-23 14:54:32.428 ServerApp]     http://127.0.0.1:8888/odoo-sh/editor/lab
+[I 2022-05-23 14:54:32.429 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 2022-05-23 14:54:32.433 ServerApp] No web browser found: could not locate runnable browser.
+[I 2022-05-23 14:54:32.515 ServerApp] 302 GET /odoo-sh/editor (10.0.0.192) 0.79ms
+[C 2022-05-23 14:56:35.690 ServerApp] received signal 15, stopping
+[I 2022-05-23 14:56:35.691 ServerApp] Shutting down 0 kernels
+[I 2022-05-23 14:56:35.691 ServerApp] Shutting down 0 terminals
+[D 2022-06-06 13:44:40.549 ServerApp] Searching ['/home/odoo', '/home/odoo/.jupyter', '/opt/odoo.sh/jupyterlab/etc/jupyter', '/usr/local/etc/jupyter', '/etc/jupyter'] for config files
+[D 2022-06-06 13:44:40.550 ServerApp] Looking for jupyter_config in /etc/jupyter
+[D 2022-06-06 13:44:40.551 ServerApp] Looking for jupyter_config in /usr/local/etc/jupyter
+[D 2022-06-06 13:44:40.551 ServerApp] Looking for jupyter_config in /opt/odoo.sh/jupyterlab/etc/jupyter
+[D 2022-06-06 13:44:40.551 ServerApp] Looking for jupyter_config in /home/odoo/.jupyter
+[D 2022-06-06 13:44:40.551 ServerApp] Looking for jupyter_config in /home/odoo
+[D 2022-06-06 13:44:40.551 ServerApp] Looking for jupyter_server_config in /etc/jupyter
+[D 2022-06-06 13:44:40.552 ServerApp] Looking for jupyter_server_config in /usr/local/etc/jupyter
+[D 2022-06-06 13:44:40.552 ServerApp] Looking for jupyter_server_config in /opt/odoo.sh/jupyterlab/etc/jupyter
+[D 2022-06-06 13:44:40.552 ServerApp] Looking for jupyter_server_config in /home/odoo/.jupyter
+[D 2022-06-06 13:44:40.552 ServerApp] Looking for jupyter_server_config in /home/odoo
+[D 2022-06-06 13:44:40.554 ServerApp] Paths used for configuration of jupyter_server_config: 
+    	/etc/jupyter/jupyter_server_config.json
+[D 2022-06-06 13:44:40.555 ServerApp] Paths used for configuration of jupyter_server_config: 
+    	/usr/local/etc/jupyter/jupyter_server_config.json
+[D 2022-06-06 13:44:40.555 ServerApp] Paths used for configuration of jupyter_server_config: 
+    	/opt/odoo.sh/jupyterlab/etc/jupyter/jupyter_server_config.d/jupyterlab.json
+    	/opt/odoo.sh/jupyterlab/etc/jupyter/jupyter_server_config.d/nbclassic.json
+    	/opt/odoo.sh/jupyterlab/etc/jupyter/jupyter_server_config.json
+[D 2022-06-06 13:44:40.556 ServerApp] Paths used for configuration of jupyter_server_config: 
+    	/home/odoo/.jupyter/jupyter_server_config.json
+[D 2022-06-06 13:44:40.569 LabApp] Config changed: {'NotebookApp': {}, 'ServerApp': {'ip': '0.0.0.0', 'port': 8888, 'port_retries': 0, 'base_url': '/odoo-sh/editor', 'password': 'sha1:c6303c956114894f118b3a1c1:2205c845a9509963c3c4d1198bb1403798ed2246', 'contents_manager_class': 'odoo_paas.OdooLargeFileManager', 'login_handler_class': 'odoo_paas.OdooLoginHandler', 'log_level': 'DEBUG', 'jpserver_extensions': <LazyConfigValue {'update': {'nbclassic': True}}>}, 'FileContentsManager': {'delete_to_trash': False}, 'ExtensionApp': {'log_level': 'DEBUG'}}
+[I 2022-06-06 13:44:40.570 ServerApp] jupyterlab | extension was successfully linked.
+[D 2022-06-06 13:44:40.578 NotebookApp] Config changed: {'NotebookApp': {}, 'ServerApp': {'terminado_settings': {'shell_command': ['/usr/bin/env', 'TERM=xterm-256color', '/bin/bash']}, 'ip': '0.0.0.0', 'port': 8888, 'port_retries': 0, 'base_url': '/odoo-sh/editor', 'password': 'sha1:c6303c956114894f118b3a1c1:2205c845a9509963c3c4d1198bb1403798ed2246', 'contents_manager_class': 'odoo_paas.OdooLargeFileManager', 'login_handler_class': 'odoo_paas.OdooLoginHandler', 'log_level': 'DEBUG', 'jpserver_extensions': <LazyConfigValue value={'jupyterlab': True, 'nbclassic': True}>}, 'FileContentsManager': {'delete_to_trash': False}, 'ExtensionApp': {'log_level': 'DEBUG'}}
+[D 2022-06-06 13:44:40.884 ServerApp] Paths used for configuration of jupyter_notebook_config: 
+    	/home/odoo/.jupyter/jupyter_notebook_config.json
+[D 2022-06-06 13:44:40.884 ServerApp] Paths used for configuration of jupyter_notebook_config: 
+    	/etc/jupyter/jupyter_notebook_config.json
+[D 2022-06-06 13:44:40.885 ServerApp] Paths used for configuration of jupyter_notebook_config: 
+    	/usr/local/etc/jupyter/jupyter_notebook_config.json
+[D 2022-06-06 13:44:40.885 ServerApp] Paths used for configuration of jupyter_notebook_config: 
+    	/opt/odoo.sh/jupyterlab/etc/jupyter/jupyter_notebook_config.d/jupyterlab.json
+    	/opt/odoo.sh/jupyterlab/etc/jupyter/jupyter_notebook_config.d/odoo_paas.json
+    	/opt/odoo.sh/jupyterlab/etc/jupyter/jupyter_notebook_config.json
+[D 2022-06-06 13:44:40.885 ServerApp] Paths used for configuration of jupyter_notebook_config: 
+    	/home/odoo/.jupyter/jupyter_notebook_config.json
+[I 2022-06-06 13:44:40.886 ServerApp] odoo_paas | extension was found and enabled by nbclassic. Consider moving the extension to Jupyter Server's extension paths.
+[I 2022-06-06 13:44:40.886 ServerApp] odoo_paas | extension was successfully linked.
+[I 2022-06-06 13:44:40.886 ServerApp] nbclassic | extension was successfully linked.
+[D 2022-06-06 13:44:40.887 ServerApp] Config changed: {'FileContentsManager': {'delete_to_trash': False}, 'ExtensionApp': {'log_level': 'DEBUG'}, 'NotebookApp': {}, 'ServerApp': {'terminado_settings': {'shell_command': ['/usr/bin/env', 'TERM=xterm-256color', '/bin/bash']}, 'ip': '0.0.0.0', 'port': 8888, 'port_retries': 0, 'base_url': '/odoo-sh/editor', 'password': 'sha1:c6303c956114894f118b3a1c1:2205c845a9509963c3c4d1198bb1403798ed2246', 'contents_manager_class': 'odoo_paas.OdooLargeFileManager', 'login_handler_class': 'odoo_paas.OdooLoginHandler', 'log_level': 'DEBUG', 'jpserver_extensions': <LazyConfigValue value={'jupyterlab': True, 'nbclassic': True}>}}
+[I 2022-06-06 13:44:40.913 ServerApp] nbclassic | extension was successfully loaded.
+[I 2022-06-06 13:44:40.914 LabApp] JupyterLab extension loaded from /opt/odoo.sh/jupyterlab/lib/python3.8/site-packages/jupyterlab
+[I 2022-06-06 13:44:40.914 LabApp] JupyterLab application directory is /opt/odoo.sh/jupyterlab/share/jupyter/lab
+[I 2022-06-06 13:44:40.917 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2022-06-06 13:44:40.917 ServerApp] odoo_paas module enabled!
+[I 2022-06-06 13:44:40.918 ServerApp] odoo_paas | extension was successfully loaded.
+[I 2022-06-06 13:44:40.918 ServerApp] Serving notebooks from local directory: 
+[I 2022-06-06 13:44:40.918 ServerApp] Jupyter Server 1.8.0 is running at:
+[I 2022-06-06 13:44:40.918 ServerApp] http://aspp17:8888/odoo-sh/editor/lab
+[I 2022-06-06 13:44:40.919 ServerApp]     http://127.0.0.1:8888/odoo-sh/editor/lab
+[I 2022-06-06 13:44:40.919 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 2022-06-06 13:44:40.921 ServerApp] No web browser found: could not locate runnable browser.
+[I 2022-06-06 13:44:41.105 ServerApp] 302 GET /odoo-sh/editor (10.0.63.108) 0.83ms
+[I 2022-06-06 13:44:41.651 LabApp] 302 GET /odoo-sh/editor/lab (10.0.63.108) 1.16ms
+[D 2022-06-06 13:44:43.163 ServerApp] Using contents: services/contents
+[D 2022-06-06 13:44:43.185 ServerApp] Path favicon.ico served from /opt/odoo.sh/jupyterlab/lib/python3.8/site-packages/jupyter_server/static/favicon.ico
+[D 2022-06-06 13:44:43.185 ServerApp] Path style/bootstrap.min.css served from /opt/odoo.sh/jupyterlab/lib/python3.8/site-packages/jupyter_server/static/style/bootstrap.min.css
+[D 2022-06-06 13:44:43.186 ServerApp] Path style/bootstrap-theme.min.css served from /opt/odoo.sh/jupyterlab/lib/python3.8/site-packages/jupyter_server/static/style/bootstrap-theme.min.css
+[D 2022-06-06 13:44:43.186 ServerApp] Path style/index.css served from /opt/odoo.sh/jupyterlab/lib/python3.8/site-packages/jupyter_server/static/style/index.css
+[D 2022-06-06 13:44:43.187 ServerApp] Path logo/logo.png served from /opt/odoo.sh/jupyterlab/lib/python3.8/site-packages/jupyter_server/static/logo/logo.png
+[D 2022-06-06 13:44:43.187 ServerApp] 200 GET /odoo-sh/editor/login?next=%2Fodoo-sh%2Feditor%2Flab?next=%2Fodoo-sh%2Feditor%2Flab (10.0.63.108) 25.75ms
+[I 2022-06-06 13:44:43.191 ServerApp] 302 POST /odoo-sh/editor/login?next=%2Fodoo-sh%2Feditor%2Flab (10.0.63.108) 1.29ms
+[D 2022-06-06 13:44:43.447 ServerApp] Paths used for configuration of page_config: 
+    	/etc/jupyter/labconfig/page_config.json
+[D 2022-06-06 13:44:43.447 ServerApp] Paths used for configuration of page_config: 
+    	/usr/local/etc/jupyter/labconfig/page_config.json
+[D 2022-06-06 13:44:43.448 ServerApp] Paths used for configuration of page_config: 
+    	/opt/odoo.sh/jupyterlab/etc/jupyter/labconfig/page_config.json
+[D 2022-06-06 13:44:43.448 ServerApp] Paths used for configuration of page_config: 
+    	/home/odoo/.jupyter/labconfig/page_config.json
+[D 2022-06-06 13:44:43.449 LabApp] Using contents: services/contents
+[D 2022-06-06 13:44:43.455 LabApp] 200 GET /odoo-sh/editor/lab (10.0.63.108) 11.08ms
+[D 2022-06-06 13:44:43.828 ServerApp] Path main.2a6f12eaf1225759148c.js served from /opt/odoo.sh/jupyterlab/share/jupyter/lab/static/main.2a6f12eaf1225759148c.js
+[D 2022-06-06 13:44:43.830 ServerApp] 200 GET /odoo-sh/editor/static/lab/main.2a6f12eaf1225759148c.js?v=2a6f12eaf1225759148c (10.0.63.108) 2.63ms
+[D 2022-06-06 13:44:44.319 ServerApp] Path jlab_core.5faace5945487992a8d8.js served from /opt/odoo.sh/jupyterlab/share/jupyter/lab/static/jlab_core.5faace5945487992a8d8.js
+[D 2022-06-06 13:44:44.332 ServerApp] 200 GET /odoo-sh/editor/static/lab/jlab_core.5faace5945487992a8d8.js?v=5faace5945487992a8d8 (10.0.63.108) 13.24ms
+[D 2022-06-06 13:44:44.341 ServerApp] Path 2719.3eb49cb0fec79e992569.js served from /opt/odoo.sh/jupyterlab/share/jupyter/lab/static/2719.3eb49cb0fec79e992569.js
+[D 2022-06-06 13:44:44.345 ServerApp] 200 GET /odoo-sh/editor/static/lab/2719.3eb49cb0fec79e992569.js?v=3eb49cb0fec79e992569 (10.0.63.108) 5.46ms
+[D 2022-06-06 13:44:44.643 ServerApp] Path 9473.71561bd8eb25083fb5e2.js served from /opt/odoo.sh/jupyterlab/share/jupyter/lab/static/9473.71561bd8eb25083fb5e2.js
+[D 2022-06-06 13:44:44.645 ServerApp] Path 8173.b3cdc88dcb401955d50e.js served from /opt/odoo.sh/jupyterlab/share/jupyter/lab/static/8173.b3cdc88dcb401955d50e.js
+[D 2022-06-06 13:44:44.646 ServerApp] 200 GET /odoo-sh/editor/static/lab/8173.b3cdc88dcb401955d50e.js?v=b3cdc88dcb401955d50e (10.0.63.108) 3.92ms
+[D 2022-06-06 13:44:44.649 ServerApp] Path 6700.e6662c91dc5086ac3113.js served from /opt/odoo.sh/jupyterlab/share/jupyter/lab/static/6700.e6662c91dc5086ac3113.js
+[D 2022-06-06 13:44:44.650 ServerApp] 200 GET /odoo-sh/editor/static/lab/6700.e6662c91dc5086ac3113.js?v=e6662c91dc5086ac3113 (10.0.63.108) 2.76ms
+[D 2022-06-06 13:44:44.650 ServerApp] Path 4155.8ef68901b7e0b8de0537.js served from /opt/odoo.sh/jupyterlab/share/jupyter/lab/static/4155.8ef68901b7e0b8de0537.js
+[D 2022-06-06 13:44:44.651 ServerApp] 200 GET /odoo-sh/editor/static/lab/4155.8ef68901b7e0b8de0537.js?v=8ef68901b7e0b8de0537 (10.0.63.108) 3.30ms
+[D 2022-06-06 13:44:44.653 ServerApp] 200 GET /odoo-sh/editor/static/lab/9473.71561bd8eb25083fb5e2.js?v=71561bd8eb25083fb5e2 (10.0.63.108) 11.27ms
+[D 2022-06-06 13:44:45.277 ServerApp] Path 2156.ee8afe83393935306bc8.js served from /opt/odoo.sh/jupyterlab/share/jupyter/lab/static/2156.ee8afe83393935306bc8.js
+[D 2022-06-06 13:44:45.280 ServerApp] 200 GET /odoo-sh/editor/static/lab/2156.ee8afe83393935306bc8.js?v=ee8afe83393935306bc8 (10.0.63.108) 4.38ms
+[D 2022-06-06 13:44:45.327 ServerApp] Path 1033.189aedab6a19f49d3994.js served from /opt/odoo.sh/jupyterlab/share/jupyter/lab/static/1033.189aedab6a19f49d3994.js
+[D 2022-06-06 13:44:45.329 ServerApp] 200 GET /odoo-sh/editor/static/lab/1033.189aedab6a19f49d3994.js?v=189aedab6a19f49d3994 (10.0.63.108) 1.81ms
+[D 2022-06-06 13:44:45.508 ServerApp] Path 4570.fa898a8cbe40a38ab34b.js served from /opt/odoo.sh/jupyterlab/share/jupyter/lab/static/4570.fa898a8cbe40a38ab34b.js
+[D 2022-06-06 13:44:45.509 ServerApp] 200 GET /odoo-sh/editor/static/lab/4570.fa898a8cbe40a38ab34b.js?v=fa898a8cbe40a38ab34b (10.0.63.108) 1.45ms
+[D 2022-06-06 13:44:45.546 ServerApp] Path 807.feb34be27bd676949b13.js served from /opt/odoo.sh/jupyterlab/share/jupyter/lab/static/807.feb34be27bd676949b13.js
+[D 2022-06-06 13:44:45.549 ServerApp] 200 GET /odoo-sh/editor/static/lab/807.feb34be27bd676949b13.js?v=feb34be27bd676949b13 (10.0.63.108) 3.31ms
+[D 2022-06-06 13:44:45.571 ServerApp] Path 7294.1fce92b650abaf57dd60.js served from /opt/odoo.sh/jupyterlab/share/jupyter/lab/static/7294.1fce92b650abaf57dd60.js
+[D 2022-06-06 13:44:45.572 ServerApp] 200 GET /odoo-sh/editor/static/lab/7294.1fce92b650abaf57dd60.js?v=1fce92b650abaf57dd60 (10.0.63.108) 1.54ms
+[D 2022-06-06 13:44:45.707 ServerApp] Path 3935.214ab3d3e19e3a460cfd.js served from /opt/odoo.sh/jupyterlab/share/jupyter/lab/static/3935.214ab3d3e19e3a460cfd.js
+[D 2022-06-06 13:44:45.708 ServerApp] 200 GET /odoo-sh/editor/static/lab/3935.214ab3d3e19e3a460cfd.js?v=214ab3d3e19e3a460cfd (10.0.63.108) 1.76ms
+[D 2022-06-06 13:44:45.764 ServerApp] Path 7409.76c01a39bc5f24a005e5.js served from /opt/odoo.sh/jupyterlab/share/jupyter/lab/static/7409.76c01a39bc5f24a005e5.js
+[D 2022-06-06 13:44:45.765 ServerApp] 200 GET /odoo-sh/editor/static/lab/7409.76c01a39bc5f24a005e5.js?v=76c01a39bc5f24a005e5 (10.0.63.108) 2.40ms
+[D 2022-06-06 13:44:46.471 ServerApp] Path 4631.eb7fe6636e98bf375855.js served from /opt/odoo.sh/jupyterlab/share/jupyter/lab/static/4631.eb7fe6636e98bf375855.js
+[D 2022-06-06 13:44:46.473 ServerApp] 200 GET /odoo-sh/editor/static/lab/4631.eb7fe6636e98bf375855.js?v=eb7fe6636e98bf375855 (10.0.63.108) 3.15ms
+[D 2022-06-06 13:44:46.483 ServerApp] Path 7755.479670258f3bc8fb8e84.js served from /opt/odoo.sh/jupyterlab/share/jupyter/lab/static/7755.479670258f3bc8fb8e84.js
+[D 2022-06-06 13:44:46.484 ServerApp] 200 GET /odoo-sh/editor/static/lab/7755.479670258f3bc8fb8e84.js?v=479670258f3bc8fb8e84 (10.0.63.108) 1.53ms
+[D 2022-06-06 13:44:46.561 ServerApp] Path 2747.de1478938f33a7ee7312.js served from /opt/odoo.sh/jupyterlab/share/jupyter/lab/static/2747.de1478938f33a7ee7312.js
+[D 2022-06-06 13:44:46.564 ServerApp] 200 GET /odoo-sh/editor/static/lab/2747.de1478938f33a7ee7312.js?v=de1478938f33a7ee7312 (10.0.63.108) 4.42ms
+[D 2022-06-06 13:44:46.701 ServerApp] Path 1902.f70f017c3980518e827e.js served from /opt/odoo.sh/jupyterlab/share/jupyter/lab/static/1902.f70f017c3980518e827e.js
+[D 2022-06-06 13:44:46.702 ServerApp] 200 GET /odoo-sh/editor/static/lab/1902.f70f017c3980518e827e.js?v=f70f017c3980518e827e (10.0.63.108) 1.61ms
+[D 2022-06-06 13:44:46.746 ServerApp] Path 4005.6986fcec30638fd85e42.js served from /opt/odoo.sh/jupyterlab/share/jupyter/lab/static/4005.6986fcec30638fd85e42.js
+[D 2022-06-06 13:44:46.747 ServerApp] 200 GET /odoo-sh/editor/static/lab/4005.6986fcec30638fd85e42.js?v=6986fcec30638fd85e42 (10.0.63.108) 1.35ms
+[D 2022-06-06 13:44:46.827 ServerApp] Path 4429.a0b5ec2e8350424b753f.js served from /opt/odoo.sh/jupyterlab/share/jupyter/lab/static/4429.a0b5ec2e8350424b753f.js
+[D 2022-06-06 13:44:46.828 ServerApp] 200 GET /odoo-sh/editor/static/lab/4429.a0b5ec2e8350424b753f.js?v=a0b5ec2e8350424b753f (10.0.63.108) 1.73ms
+[D 2022-06-06 13:44:46.899 ServerApp] Path 5024.187ff9b2f7b4c817a530.js served from /opt/odoo.sh/jupyterlab/share/jupyter/lab/static/5024.187ff9b2f7b4c817a530.js
+[D 2022-06-06 13:44:46.900 ServerApp] 200 GET /odoo-sh/editor/static/lab/5024.187ff9b2f7b4c817a530.js?v=187ff9b2f7b4c817a530 (10.0.63.108) 1.81ms
+[D 2022-06-06 13:44:47.005 ServerApp] Path 714.d52f5b8d9e5306c1120f.js served from /opt/odoo.sh/jupyterlab/share/jupyter/lab/static/714.d52f5b8d9e5306c1120f.js
+[D 2022-06-06 13:44:47.007 ServerApp] 200 GET /odoo-sh/editor/static/lab/714.d52f5b8d9e5306c1120f.js?v=d52f5b8d9e5306c1120f (10.0.63.108) 2.44ms
+[D 2022-06-06 13:44:47.015 ServerApp] Path 3496.c1d01d7264b84b6a869f.js served from /opt/odoo.sh/jupyterlab/share/jupyter/lab/static/3496.c1d01d7264b84b6a869f.js
+[D 2022-06-06 13:44:47.015 ServerApp] 200 GET /odoo-sh/editor/static/lab/3496.c1d01d7264b84b6a869f.js?v=c1d01d7264b84b6a869f (10.0.63.108) 0.99ms
+[D 2022-06-06 13:44:47.050 ServerApp] Path 911.99f4bc262f5a565c61be.js served from /opt/odoo.sh/jupyterlab/share/jupyter/lab/static/911.99f4bc262f5a565c61be.js
+[D 2022-06-06 13:44:47.051 ServerApp] 200 GET /odoo-sh/editor/static/lab/911.99f4bc262f5a565c61be.js?v=99f4bc262f5a565c61be (10.0.63.108) 1.16ms
+[D 2022-06-06 13:44:47.241 ServerApp] Path 126.75d95913f1d4b2253bf4.js served from /opt/odoo.sh/jupyterlab/share/jupyter/lab/static/126.75d95913f1d4b2253bf4.js
+[D 2022-06-06 13:44:47.241 ServerApp] 200 GET /odoo-sh/editor/static/lab/126.75d95913f1d4b2253bf4.js?v=75d95913f1d4b2253bf4 (10.0.63.108) 1.27ms
+[D 2022-06-06 13:44:47.242 ServerApp] Path 1641.b350fa13abf55792fa39.js served from /opt/odoo.sh/jupyterlab/share/jupyter/lab/static/1641.b350fa13abf55792fa39.js
+[D 2022-06-06 13:44:47.243 ServerApp] 200 GET /odoo-sh/editor/static/lab/1641.b350fa13abf55792fa39.js?v=b350fa13abf55792fa39 (10.0.63.108) 0.92ms
+[D 2022-06-06 13:44:48.743 ServerApp] Found kernel odoo in /opt/odoo.sh/jupyterlab/share/jupyter/kernels
+[D 2022-06-06 13:44:48.743 ServerApp] Found kernel python3 in /opt/odoo.sh/jupyterlab/share/jupyter/kernels
+[D 2022-06-06 13:44:48.746 ServerApp] 200 GET /odoo-sh/editor/api/kernelspecs?1654523088703 (10.0.63.108) 3.48ms
+[D 2022-06-06 13:44:48.752 ServerApp] Paths used for configuration of default_setting_overrides: 
+    	/etc/jupyter/labconfig/default_setting_overrides.json
+[D 2022-06-06 13:44:48.753 ServerApp] Paths used for configuration of default_setting_overrides: 
+    	/usr/local/etc/jupyter/labconfig/default_setting_overrides.json
+[D 2022-06-06 13:44:48.753 ServerApp] Paths used for configuration of default_setting_overrides: 
+    	/opt/odoo.sh/jupyterlab/etc/jupyter/labconfig/default_setting_overrides.json
+[D 2022-06-06 13:44:48.753 ServerApp] Paths used for configuration of default_setting_overrides: 
+    	/home/odoo/.jupyter/labconfig/default_setting_overrides.json
+[D 2022-06-06 13:44:48.802 LabApp] 200 GET /odoo-sh/editor/lab/api/settings?1654523088713 (10.0.63.108) 50.62ms
+[D 2022-06-06 13:44:48.805 ServerApp] 200 GET /odoo-sh/editor/api/kernels?1654523088728 (10.0.63.108) 2.23ms
+[D 2022-06-06 13:44:48.808 ServerApp] 200 GET /odoo-sh/editor/api/sessions?1654523088730 (10.0.63.108) 4.50ms
+[D 2022-06-06 13:44:48.808 ServerApp] 200 GET /odoo-sh/editor/api/terminals?1654523088732 (10.0.63.108) 4.60ms
+[D 2022-06-06 13:44:48.809 ServerApp] Path favicons/favicon.ico served from /opt/odoo.sh/jupyterlab/lib/python3.8/site-packages/jupyter_server/static/favicons/favicon.ico
+[D 2022-06-06 13:44:48.810 ServerApp] 200 GET /odoo-sh/editor/static/favicons/favicon.ico (10.0.63.108) 5.49ms
+[D 2022-06-06 13:44:48.872 ServerApp] Found kernel odoo in /opt/odoo.sh/jupyterlab/share/jupyter/kernels
+[D 2022-06-06 13:44:48.872 ServerApp] Found kernel python3 in /opt/odoo.sh/jupyterlab/share/jupyter/kernels
+[D 2022-06-06 13:44:48.873 ServerApp] 200 GET /odoo-sh/editor/api/kernelspecs?1654523088835 (10.0.63.108) 2.35ms
+[D 2022-06-06 13:44:50.243 ServerApp] 200 GET /odoo-sh/editor/lab/api/translations/en?1654523089967 (10.0.63.108) 237.29ms
+[D 2022-06-06 13:44:50.623 ServerApp] Paths used for configuration of default_setting_overrides: 
+    	/etc/jupyter/labconfig/default_setting_overrides.json
+[D 2022-06-06 13:44:50.624 ServerApp] Paths used for configuration of default_setting_overrides: 
+    	/usr/local/etc/jupyter/labconfig/default_setting_overrides.json
+[D 2022-06-06 13:44:50.624 ServerApp] Paths used for configuration of default_setting_overrides: 
+    	/opt/odoo.sh/jupyterlab/etc/jupyter/labconfig/default_setting_overrides.json
+[D 2022-06-06 13:44:50.624 ServerApp] Paths used for configuration of default_setting_overrides: 
+    	/home/odoo/.jupyter/labconfig/default_setting_overrides.json
+[D 2022-06-06 13:44:50.799 ServerApp] 200 GET /odoo-sh/editor/lab/api/translations/?1654523090583 (10.0.63.108) 178.07ms
+[D 2022-06-06 13:44:50.803 ServerApp] Paths used for configuration of default_setting_overrides: 
+    	/etc/jupyter/labconfig/default_setting_overrides.json
+[D 2022-06-06 13:44:50.803 ServerApp] Paths used for configuration of default_setting_overrides: 
+    	/usr/local/etc/jupyter/labconfig/default_setting_overrides.json
+[D 2022-06-06 13:44:50.803 ServerApp] Paths used for configuration of default_setting_overrides: 
+    	/opt/odoo.sh/jupyterlab/etc/jupyter/labconfig/default_setting_overrides.json
+[D 2022-06-06 13:44:50.804 ServerApp] Paths used for configuration of default_setting_overrides: 
+    	/home/odoo/.jupyter/labconfig/default_setting_overrides.json
+[D 2022-06-06 13:44:50.805 ServerApp] Paths used for configuration of default_setting_overrides: 
+    	/etc/jupyter/labconfig/default_setting_overrides.json
+[D 2022-06-06 13:44:50.805 ServerApp] Paths used for configuration of default_setting_overrides: 
+    	/usr/local/etc/jupyter/labconfig/default_setting_overrides.json
+[D 2022-06-06 13:44:50.805 ServerApp] Paths used for configuration of default_setting_overrides: 
+    	/opt/odoo.sh/jupyterlab/etc/jupyter/labconfig/default_setting_overrides.json
+[D 2022-06-06 13:44:50.806 ServerApp] Paths used for configuration of default_setting_overrides: 
+    	/home/odoo/.jupyter/labconfig/default_setting_overrides.json
+[D 2022-06-06 13:44:50.889 LabApp] 200 GET /odoo-sh/editor/lab/api/settings/%40jupyterlab/docmanager-extension%3Aplugin?1654523090716 (10.0.63.108) 87.88ms
+[D 2022-06-06 13:44:50.891 LabApp] 200 GET /odoo-sh/editor/lab/api/settings/%40jupyterlab/shortcuts-extension%3Ashortcuts?1654523090715 (10.0.63.108) 86.78ms
+[W 2022-06-06 13:44:51.041 LabApp] Could not determine jupyterlab build status without nodejs
+[D 2022-06-06 13:44:51.041 LabApp] 200 GET /odoo-sh/editor/lab/api/build?1654523090577 (10.0.63.108) 428.11ms
+[D 2022-06-06 13:44:51.279 ServerApp] Path @jupyterlab/theme-dark-extension/index.css served from /opt/odoo.sh/jupyterlab/share/jupyter/lab/themes/@jupyterlab/theme-dark-extension/index.css
+[D 2022-06-06 13:44:51.283 ServerApp] 200 GET /odoo-sh/editor/lab/api/themes/%40jupyterlab/theme-dark-extension/index.css (10.0.63.108) 6.54ms
+[D 2022-06-06 13:44:51.285 LabApp] 200 GET /odoo-sh/editor/lab/api/workspaces/default?1654523091211 (10.0.63.108) 1.64ms
+[D 2022-06-06 13:44:51.300 ServerApp] Paths used for configuration of default_setting_overrides: 
+    	/etc/jupyter/labconfig/default_setting_overrides.json
+[D 2022-06-06 13:44:51.301 ServerApp] Paths used for configuration of default_setting_overrides: 
+    	/usr/local/etc/jupyter/labconfig/default_setting_overrides.json
+[D 2022-06-06 13:44:51.301 ServerApp] Paths used for configuration of default_setting_overrides: 
+    	/opt/odoo.sh/jupyterlab/etc/jupyter/labconfig/default_setting_overrides.json
+[D 2022-06-06 13:44:51.302 ServerApp] Paths used for configuration of default_setting_overrides: 
+    	/home/odoo/.jupyter/labconfig/default_setting_overrides.json
+[D 2022-06-06 13:44:51.305 LabApp] 200 GET /odoo-sh/editor/lab/api/settings/%40jupyterlab/shortcuts-extension%3Ashortcuts?1654523091262 (10.0.63.108) 5.49ms
+[D 2022-06-06 13:44:51.530 ServerApp] Paths used for configuration of default_setting_overrides: 
+    	/etc/jupyter/labconfig/default_setting_overrides.json
+[D 2022-06-06 13:44:51.531 ServerApp] Paths used for configuration of default_setting_overrides: 
+    	/usr/local/etc/jupyter/labconfig/default_setting_overrides.json
+[D 2022-06-06 13:44:51.532 ServerApp] Paths used for configuration of default_setting_overrides: 
+    	/opt/odoo.sh/jupyterlab/etc/jupyter/labconfig/default_setting_overrides.json
+[D 2022-06-06 13:44:51.532 ServerApp] Paths used for configuration of default_setting_overrides: 
+    	/home/odoo/.jupyter/labconfig/default_setting_overrides.json
+[D 2022-06-06 13:44:51.572 LabApp] 200 GET /odoo-sh/editor/lab/api/settings?1654523091488 (10.0.63.108) 43.27ms
+[D 2022-06-06 13:44:51.573 ServerApp] Path 2349.d5023c8bdd5b20c74721.js served from /opt/odoo.sh/jupyterlab/share/jupyter/lab/static/2349.d5023c8bdd5b20c74721.js
+[D 2022-06-06 13:44:51.575 ServerApp] 200 GET /odoo-sh/editor/static/lab/2349.d5023c8bdd5b20c74721.js?v=d5023c8bdd5b20c74721 (10.0.63.108) 1.98ms
+[D 2022-06-06 13:44:51.610 ServerApp] 200 GET /odoo-sh/editor/api/nbconvert?1654523090629 (10.0.63.108) 809.16ms
+[D 2022-06-06 13:44:52.216 LabApp] 204 PUT /odoo-sh/editor/lab/api/workspaces/default?1654523092170 (10.0.63.108) 1.22ms
+[D 2022-06-06 13:44:52.387 ServerApp] Serving kernel resource from: /opt/odoo.sh/jupyterlab/share/jupyter/kernels/python3
+[D 2022-06-06 13:44:52.388 ServerApp] 200 GET /odoo-sh/editor/kernelspecs/python3/logo-64x64.png (10.0.63.108) 2.15ms
+[D 2022-06-06 13:44:52.388 ServerApp] Serving kernel resource from: /opt/odoo.sh/jupyterlab/share/jupyter/kernels/odoo
+[D 2022-06-06 13:44:52.389 ServerApp] 200 GET /odoo-sh/editor/kernelspecs/odoo/logo-64x64.png (10.0.63.108) 2.24ms
+[D 2022-06-06 13:44:52.402 ServerApp] Path 1e64d99ecff71ffca4e9ccf7d105226b.png served from /opt/odoo.sh/jupyterlab/share/jupyter/lab/static/1e64d99ecff71ffca4e9ccf7d105226b.png
+[D 2022-06-06 13:44:52.403 ServerApp] 200 GET /odoo-sh/editor/static/lab/1e64d99ecff71ffca4e9ccf7d105226b.png (10.0.63.108) 0.89ms
+[D 2022-06-06 13:44:52.545 ServerApp] 200 GET /odoo-sh/editor/api/contents?content=1&1654523092489 (10.0.63.108) 2.90ms
+[D 2022-06-06 13:44:53.052 LabApp] 204 PUT /odoo-sh/editor/lab/api/workspaces/default?1654523093009 (10.0.63.108) 1.29ms
+[D 2022-06-06 13:44:59.034 ServerApp] 200 GET /odoo-sh/editor/api/kernels?1654523098987 (10.0.63.108) 1.28ms
+[D 2022-06-06 13:44:59.036 ServerApp] 200 GET /odoo-sh/editor/api/terminals?1654523098991 (10.0.63.108) 0.68ms
+[D 2022-06-06 13:44:59.061 ServerApp] 200 GET /odoo-sh/editor/api/sessions?1654523099018 (10.0.63.108) 0.95ms
+[D 2022-06-06 13:45:02.878 ServerApp] 200 GET /odoo-sh/editor/api/contents?content=1&1654523102833 (10.0.63.108) 1.83ms
+[C 2022-06-06 13:54:29.773 ServerApp] received signal 15, stopping
+[I 2022-06-06 13:54:29.773 ServerApp] Shutting down 0 kernels
+[I 2022-06-06 13:54:29.774 ServerApp] Shutting down 0 terminals
